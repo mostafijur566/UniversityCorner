@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/scrl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".DetailsActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/varsityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangladesh University of Engineering and Technology"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:background="#DF2D2D2D"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/overViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="#DF2D2D2D"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overview"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Type:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/overviewTxt1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Public, Engineering"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Established Year:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1962"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Students:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/student"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10,066+"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Halls:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/hall"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="8"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Department:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="18"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nick Name:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/nickName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BUET"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Location:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dhaka, Bangladesh"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Campus:"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/campus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Urban, 76.85 acres"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Website:"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/webAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="www.buet.ac.bd"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Contact Info"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email:"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="support@iict.buet.ac.bd"
+                    android:autoLink="email"
+                    android:clickable="true"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textIsSelectable="true"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mobile:"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/mobile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+8801797329125 (9 AM to 8 PM)"
+                    android:autoLink="phone"
+                    android:clickable="true"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textIsSelectable="true"
+                    />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/facultyDepartmentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DF2D2D2D"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/facultyDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculty and departments"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01. Faculty of Electrical and Electronic Engineering:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty1txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Electrical and Electronic Engineering (EEE)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="02. Faculty of Mechanical Engineering:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty2txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Mechanical Engineering (ME)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03. Faculty of Engineering:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty3txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Chemical (ChE)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="04. Faculty of Civil Engineering:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty4txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Civil Engineering (CE)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="05. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty5txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="06. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty6txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty7txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="08. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty8txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="09. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty9txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty10txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty11txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty12txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/faculty13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. Faculty of Architecture and Planning:"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/faculty13txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Department of Architecture (Arch)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

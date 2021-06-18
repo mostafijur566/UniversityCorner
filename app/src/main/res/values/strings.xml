@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">University Corner</string>
+
+    <string name="about">We tried our best to cover all University in Bangladesh. This app will be very helpful for admission candidate students. If there any miss information then please let us know. You can also suggest us to make this app better.</string>
+
+    <string-array name="engineering_varsity">
+        <item>Bangladesh University of Engineering and Technology ( BUET )</item>
+        <item>Rajshahi University of Engineering and Technology ( RUET )</item>
+        <item>Chittagong University of Engineering and Technology ( CUET )</item>
+        <item>Khulna University of Engineering and Technology ( KUET )</item>
+        <item>Dhaka University of Engineering and Technology ( DUET )</item>
+    </string-array>
+
+    <string-array name="medical">
+        <item>Chittagong Medical University</item>
+        <item>Chittagong Medical College</item>
+        <item>Chittagong International Medical College</item>
+        <item>Army Medical College Chittagong</item>
+        <item>Southern Medical College, Chittagong</item>
+        <item>Marine City Medical College, Chittagong</item>
+        <item>University of Science and Technology, Chittagong</item>
+    </string-array>
+
+    <string-array name="agricultural">
+        <item>Bangladesh Agricultural University ( BAU )</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Agricultural University ( BSMRAU )</item>
+        <item>Sher-e-Bangla Agricultural University ( SAU )</item>
+        <item>Sylhet Agricultural University ( STAU )</item>
+        <item>Chittagong Veterinary and Animal Sciences University ( CVASU )</item>
+        <item>Bangladesh University of Textile Engineering ( BUTEX )</item>
+        <item>Textile Engineering College, Chittagong ( CTEC )</item>
+        <item>Textile Engineering College, Noakhali </item>
+        <item>Pabna Textile Engineering College</item>
+        <item>Bangabandhu Textile Engineering College</item>
+    </string-array>
+
+    <string-array name="general">
+        <item>University of Dhaka ( DU )</item>
+        <item>University of Rajshahi ( RU )</item>
+        <item>University of Chittagong ( CU )</item>
+        <item>Jahangirnagar University ( JU )</item>
+        <item>Islamic University Bangladesh ( IU )</item>
+        <item>Khulna University ( KU )</item>
+        <item>Jagannath University ( JNU )</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University ( JKKNIU )</item>
+        <item>Comilla University ( COU )</item>
+        <item>Bangladesh University of Professionals ( BUP )</item>
+        <item>Begum Rokeya University, Rangpur ( BRUR )</item>
+        <item>University of Barisal ( BU )</item>
+    </string-array>
+
+    <string-array name="science_and_tech">
+        <item>Ahsanullah University of Science and Technology ( AUST )</item>
+        <item>Shahjalal University of Science and Technology ( SUST )</item>
+        <item>Noakhali Science and Technology ( NSTU )</item>
+        <item>Hajee Mohammad Danesh Science and Technology ( HUST )</item>
+        <item>Mawalana Bhashani Science and Technology University ( MBSTU )</item>
+        <item>Patuakhali Science and Technology University ( PSTU )</item>
+        <item>Jessore University of Science and Technology ( JUST )</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Science and Technology ( BSMRSTU )</item>
+        <item>Rangamati Science and Technology University ( RMSTU )</item>
+        <item>Chandpur Science and Technology University ( CSTU )</item>
+    </string-array>
+
+    <string-array name="national">
+        <item>Dhaka College, Dhaka</item>
+        <item>Eden Mohila College, Dhaka</item>
+        <item>Government Titumir College, Dhaka</item>
+        <item>Governement Bangla College, Dhaka</item>
+        <item>Dhaka City College, Dhaka</item>
+        <item>Dhaka Commerce College, Dhaka</item>
+        <item>Tejgaon College, Dhaka</item>
+        <item>Lalmatia Mohila College, Dhaka</item>
+        <item>Chittagong Govt College, Chittagong</item>
+        <item>Government City College, Chittagong</item>
+        <item>Government Hazi Mohammad Mohsin College, Chittagong</item>
+    </string-array>
+
+    <string-array name="pvt">
+        <item>Asian University for Women, Chittagong</item>
+        <item>Bandarban University, Chittagong</item>
+        <item>BGC Trust University Bangladesh, Chittagong</item>
+        <item>Chittagong Independent University</item>
+        <item>Coxs Bazar International University, Chittagong</item>
+        <item>East Delta University, Chittagong</item>
+        <item>International Islamic University, Chittagong</item>
+        <item>Port City International University, Chittagong</item>
+        <item>Premier University</item>
+        <item>Southern University Bangladesh, Chittagong</item>
+    </string-array>
+
+</resources>
