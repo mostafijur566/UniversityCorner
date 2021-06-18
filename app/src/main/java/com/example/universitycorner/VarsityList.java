@@ -296,6 +296,13 @@ public class VarsityList extends AppCompatActivity {
                         intent.putExtra("tag", "CU");
                         startActivity(intent);
                     }
+
+                    else if(adapter.getItem(position).equals("Jahangirnagar University ( JU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "JU");
+                        startActivity(intent);
+                    }
                 }
             }
         });

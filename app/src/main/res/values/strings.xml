@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">University Corner</string>
 
-    <string name="about">We tried our best to cover all University in Bangladesh. This app will be very helpful for admission candidate students. If there any miss information then please let us know. You can also suggest us to make this app better.</string>
+    <string name="about">We tried our best to cover all University in Bangladesh. This app will be very helpful for admission candidate students. If there any mistake then please let us know. You can also suggest us to make this app better.</string>
 
     <string-array name="engineering_varsity">
         <item>Bangladesh University of Engineering and Technology ( BUET )</item>
