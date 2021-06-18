@@ -303,6 +303,20 @@ public class VarsityList extends AppCompatActivity {
                         intent.putExtra("tag", "JU");
                         startActivity(intent);
                     }
+
+                    else if(adapter.getItem(position).equals("Islamic University Bangladesh ( IU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "IU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Khulna University ( KU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "KU");
+                        startActivity(intent);
+                    }
                 }
             }
         });

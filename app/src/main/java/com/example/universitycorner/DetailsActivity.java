@@ -1760,9 +1760,9 @@ public class DetailsActivity extends AppCompatActivity {
                 faculty3txt1.setText("1. Department of Anthropology\n2. Department of Economics\n3. Department of Government and Politics\n4. Department of Geography & Environment" +
                         "\n5. Department of Public Administration\n6. Department of Urban and Regional Planning");
 
-                faculty4.setText("04. Department of Archaeology:");
+                faculty4.setText("04. Faculty of Arts and Humanities:");
                 faculty4txt1.setText("1. Department of Bangla\n2. Department of Drama and Dramatics\n3. Department of English\n4. Department of Fine Arts\n5. Department of History" +
-                        "\n6. Department of International Relations\n7. Department of Journalism & Media Studies\n8. Department of Philosophy");
+                        "\n6. Department of International Relations\n7. Department of Journalism & Media Studies\n8. Department of Philosophy\n9. Department of Anthropology");
 
                 faculty5.setText("05. Faculty of Business Studies:");
                 faculty5txt1.setText("1. DDepartment of Accounting and Information Systems\n2. Department of Finance & Banking\n3. Department of Marketing\n4. Department of Management Studies");
@@ -1776,6 +1776,142 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty8.setText("08. Faculty of Law:");
                 faculty8txt1.setText("1. Department of Law");
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //IU
+            else if(value.equals("IU")) {
+                getSupportActionBar().setTitle("IU");
+                scrl.setBackgroundResource(R.drawable.agriculature_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Islamic University");
+                year.setText("1979");
+                student.setText("18,000(+-)");
+                hall.setText("7");
+                department.setText("25");
+                nickName.setText("IU");
+                location.setText("Kushtia, Bangladesh");
+                campus.setText("Urban, 175 acre (1.31523km²)");
+
+                email.setText("registrar@iu.ac.bd");
+                mobile.setText("+88-071-74904");
+                webAddress.setText("www.iu.ac.bd");
+
+                faculty1.setText("01. Faculty of Theology and Islamic Studies:");
+                faculty1txt1.setText("1. Department of Al-Quran and Islamic Studies\n2. Department of Dawah and Islamic Studies\n3. Department of Al-Hadith and Islamic Studies");
+
+                faculty2.setText("02. Faculty of Engineering and Technology:");
+                faculty2txt1.setText("1. Department of Electrical and Electronic Engineering (EEE)\n2. Department of Computer Science and Engineering (CSE)\n3. Department of Applied Chemistry and Chemical Engineering (ACCE)\n4. Department of Information and Communication Technology (ICT)" +
+                        "\n5. Department of Biomedical Engineering (BME)\n6. Department of Nuclear Engineering (NE)\n7. Department of Materials Science and Engineering (MSE)" +
+                        "\n8. Department of Explosives Engineering (ExE)\n9. Department of Aeronautical Engineering (AE)\n Department of Petroleum and Mineral Resources Engineering (PMRE)");
+
+                faculty3.setText("03. Faculty of Biological Sciences:");
+                faculty3txt1.setText("1. Department of Biotechnology and Genetic Engineering (BTGE)\n2. Department of Applied Nutrition and Food Technology (ANFT)\n3. Department of Pharmacy\n4. Department of Public health (PH)" +
+                        "\n5. Department of Microbiology (MB)\n6. Department of  \tBiochemistry and Molecular Biology (BMB)");
+
+                faculty4.setText("04.Faculty of Sciences:");
+                faculty4txt1.setText("1. Department of Mathematics\n2. Department of Statistics\n3. Department of Environmental Science & Geography\n4. Department of Chemistry\n5. Department of Physics" +
+                        "\n6. Department of Botany\n7. Department of Zoology\n8. Department of Physical Education and Sports Science\n9. Department of Geology and Mining\n10. Disaster Management");
+
+                faculty5.setText("05. Faculty of Business Administration:");
+                faculty5txt1.setText("1. Department of Accounting and Information Systems (AIS)\n2. Department of Management (MGT)\n3. Department of Marketing\n4. Department of Finance and Banking (FAB)" +
+                        "\n5. Department of Human Resources Management (HRM)\n6. Department of Tourism and Hospitality Management (THM)\n7. Department of Banking and Insurance\n8. Department of International Business" +
+                        "\n9. Department of Management Information System (MIS)");
+
+                faculty6.setText("06. Faculty of Arts:");
+                faculty6txt1.setText("1. Department of Arabic Language and Literature\n2. Department of Bengali\n3. Department of English" +
+                        "\n4. Department of Islamic History and Culture\n5. Department of Fine Arts\n6. Department of Philosophy\n7. Department of Linguistics\n8. Department of Theater and Performing Arts" +
+                        "\n9. Department of Music\n10. Department of History\n11. Department of World Religions");
+
+                faculty7.setText("07. Faculty of Law:");
+                faculty7txt1.setText("1. Department of Law\n2. Department of Al-Fiqh and Legal Studies\n3. Department of Law and Land Management");
+
+                faculty8.setText("08. Faculty of Social Sciences:");
+                faculty8txt1.setText("1. Department of  Economics\n2. Department of Public Administration\n3. Department of Political Science\n4. Department of  \tFolklore Studies" +
+                        "\n5. Department of Development Studies\n6. Department of  Social Welfare\n7. Department of  International Relations\n8. Department of Sociology" +
+                        "\n9. Department of  Anthropology\n10. Department of Mass Communication & Journalism");
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //KU
+            else if(value.equals("KU")) {
+                getSupportActionBar().setTitle("KU");
+                scrl.setBackgroundResource(R.drawable.agriculature_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Khulna University");
+                year.setText("1991");
+                student.setText("6,965(+-)");
+                hall.setText("5");
+                department.setText("26");
+                nickName.setText("KU");
+                location.setText("Khulna, Bangladesh");
+                campus.setText("Urban, 106 acres (43 ha)");
+
+                email.setText("registrar@ku.ac.bd");
+                mobile.setText("+88-041-751040");
+                webAddress.setText("www.ku.ac.bd");
+
+                faculty1.setText("01. Life Science (LS) School:");
+                faculty1txt1.setText("1. Agrotechnology (AT) Discipline\n2. Biotechnology and Genetic Engineering (BGE) Discipline\n3. Environmental Science (ES) Discipline" +
+                        "\n4. Fisheries and Marine Resources Technology (FMRT) Discipline\n5. Forestry and Wood Technology (FWT) Discipline \n6. Pharmacy (PHARM) Discipline" +
+                        "\n7. Soil, Water and Environment (SWE) Discipline");
+
+                faculty2.setText("02. Science, Engineering and Technology (SET) School:");
+                faculty2txt1.setText("1. Architecture (ARCH) Discipline\n2. Chemistry (CHEM) Discipline\n3. Computer Science and Engineering (CSE) Discipline\n4. Electronics and Communication Engineering (ECE) Discipline" +
+                        "\n5. Mathematics (MATH) Discipline\n6. Physics (PHY) Discipline\n7. Statistics (STAT) Discipline" +
+                        "\n8. Urban and Rural Planning (URP) Discipline");
+
+                faculty3.setText("03. School of Management & Business Administration (MBA):");
+                faculty3txt1.setText("1. Business Administration (BA) Discipline\n2. Human Resource Management (HRM) Discipline");
+
+                faculty4.setText("04.Social Science School:");
+                faculty4txt1.setText("1. Economics (ECON) Discipline\n2. Development Studies (DS) Discipline\n3. Sociology (SOC) Discipline\n4. Mass Communication and Journalism (MCJ) Discipline");
+
+                faculty5.setText("05. Arts and Humanities School:");
+                faculty5txt1.setText("1. Bangla Language and Literature (BNL) Discipline\n2. English (ENG) Discipline\n3. History and Civilization Discipline\n4. Department of Finance and Banking (FAB)" +
+                        "\n5. Department of Human Resources Management (HRM)\n6. Department of Tourism and Hospitality Management (THM)\n7. Department of Banking and Insurance\n8. Department of International Business" +
+                        "\n9. Department of Management Information System (MIS)");
+
+                faculty6.setText("06. School of Law:");
+                faculty6txt1.setText("1. Law Discipline");
+
+                faculty7.setText("07. Fine Arts School:");
+                faculty7txt1.setText("1. Drawing and Painting (DP) Discipline\n2. Print Making Discipline\n3. Sculpture Discipline");
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
 
                 faculty9.setVisibility(View.GONE);
                 faculty9txt1.setVisibility(View.GONE);
