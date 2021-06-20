@@ -1928,6 +1928,71 @@ public class DetailsActivity extends AppCompatActivity {
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
             }
+
+            //JNU
+            else if(value.equals("JNU")) {
+                getSupportActionBar().setTitle("JnU");
+                scrl.setBackgroundResource(R.drawable.agriculature_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Jagannath University");
+                year.setText("2005");
+                student.setText("19,088(+-)");
+                hall.setText("12");
+                department.setText("36");
+                nickName.setText("JnU");
+                location.setText("Dhaka, Bangladesh");
+                campus.setText("Urban, 7.5 acres & Second Campus (Under Construction) area is Approx. 200 acres near Keraniganj, Dhaka");
+
+                email.setText("dr_acad@mail.jnu.ac.in");
+                mobile.setText("+88-011-26704050");
+                webAddress.setText("www.jnu.ac.in");
+
+                faculty1.setText("01. Faculty of Life and Earth Sciences:");
+                faculty1txt1.setText("1. Department of Biochemistry and Molecular Biology\n2. Department of Microbiology\n3. Department of Pharmacy" +
+                        "\n4. Department of Zoology\n5. Department of Botany\n6. Department of Psychology" +
+                        "\n7. Department of Geography and Environment\n8. Department of Genetic Engineering and Biotechnology");
+
+                faculty2.setText("02. Faculty of Science:");
+                faculty2txt1.setText("1. Department of Computer Science and Engineering (CSE)\n2. Department of Mathematics\n3. Department of Chemistry\n4. Department of Physics" +
+                        "\n5. Department of Statistics");
+
+                faculty3.setText("03. Faculty of Business Studies:");
+                faculty3txt1.setText("1. Department of Finance\n2. Department of Management studies\n3. Department of Marketing\n4. Department of Accounting and information systems");
+
+                faculty4.setText("04.Faculty of Arts:");
+                faculty4txt1.setText("1. Department of Bengali\n2. Department of English\n3. Department of History\n4. Department of Philosophy\n5. Department of Islamic History and Culture" +
+                        "\n6. Department of Islamic Studies\n7. Institute of Education Research\n8. Institute of Modern Languages");
+
+                faculty5.setText("05. Faculty of Social Science:");
+                faculty5txt1.setText("1. Department of Sociology\n2. Department of Anthropology\n3. Department of Economics\n4. Department of Political Science)" +
+                        "\n5. Department of Public Administration\n6. Department of Social Work\n7. Department of Mass Communication and Journalism\n8. Department of Film and Television");
+
+                faculty6.setText("06. Faculty of Law:");
+                faculty6txt1.setText("1. Department of Law\n2. Department of Land Management and Law");
+
+                faculty7.setText("07. Faculty of Fine Arts:");
+                faculty7txt1.setText("1. Department of Fine Arts and graphics\n2. Department of Drama and Dramatics\n3. Department of Music");
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
         }
     }
 

@@ -11,6 +11,7 @@
     tools:context=".AboutUs">
 
     <LinearLayout
+        android:id="@+id/mainLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -29,7 +30,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Developer Info"
+            android:text="Developers Info"
             android:textAlignment="center"
             android:textColor="#121212"
             android:textSize="20sp"
