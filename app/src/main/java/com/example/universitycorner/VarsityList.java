@@ -324,7 +324,44 @@ public class VarsityList extends AppCompatActivity {
                         intent.putExtra("tag", "JNU");
                         startActivity(intent);
                     }
+
+                    else if(adapter.getItem(position).equals("Jatiya Kabi Kazi Nazrul Islam University ( JKKNIU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "JKKNIU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Comilla University ( COU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "COU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Bangladesh University of Professionals ( BUP )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "BUP");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Begum Rokeya University, Rangpur ( BRUR )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "BRUR");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("University of Barisal ( BU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "BU");
+                        startActivity(intent);
+                    }
                 }
+
+                //...............................General University..............................
             }
         });
     }

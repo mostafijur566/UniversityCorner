@@ -1515,7 +1515,7 @@ public class DetailsActivity extends AppCompatActivity {
             //DU
             else if(value.equals("DU")) {
                 getSupportActionBar().setTitle("DU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1593,7 +1593,7 @@ public class DetailsActivity extends AppCompatActivity {
             //RU
             else if(value.equals("RU")) {
                 getSupportActionBar().setTitle("RU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1663,7 +1663,7 @@ public class DetailsActivity extends AppCompatActivity {
             //CU
             else if(value.equals("CU")) {
                 getSupportActionBar().setTitle("CU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1731,7 +1731,7 @@ public class DetailsActivity extends AppCompatActivity {
             //JU
             else if(value.equals("JU")) {
                 getSupportActionBar().setTitle("JU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1796,7 +1796,7 @@ public class DetailsActivity extends AppCompatActivity {
             //IU
             else if(value.equals("IU")) {
                 getSupportActionBar().setTitle("IU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1866,7 +1866,7 @@ public class DetailsActivity extends AppCompatActivity {
             //KU
             else if(value.equals("KU")) {
                 getSupportActionBar().setTitle("KU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1932,7 +1932,7 @@ public class DetailsActivity extends AppCompatActivity {
             //JNU
             else if(value.equals("JNU")) {
                 getSupportActionBar().setTitle("JnU");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
+                scrl.setBackgroundResource(R.drawable.public_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -1945,9 +1945,9 @@ public class DetailsActivity extends AppCompatActivity {
                 location.setText("Dhaka, Bangladesh");
                 campus.setText("Urban, 7.5 acres & Second Campus (Under Construction) area is Approx. 200 acres near Keraniganj, Dhaka");
 
-                email.setText("dr_acad@mail.jnu.ac.in");
-                mobile.setText("+88-011-26704050");
-                webAddress.setText("www.jnu.ac.in");
+                email.setText("info@jnu.ac.bd");
+                mobile.setText("+88-02-9534255");
+                webAddress.setText("www.jnu.ac.bd");
 
                 faculty1.setText("01. Faculty of Life and Earth Sciences:");
                 faculty1txt1.setText("1. Department of Biochemistry and Molecular Biology\n2. Department of Microbiology\n3. Department of Pharmacy" +
@@ -1974,6 +1974,316 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty7.setText("07. Faculty of Fine Arts:");
                 faculty7txt1.setText("1. Department of Fine Arts and graphics\n2. Department of Drama and Dramatics\n3. Department of Music");
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //JKKNIU
+            else if(value.equals("JKKNIU")) {
+                getSupportActionBar().setTitle("JKKNIU");
+                scrl.setBackgroundResource(R.drawable.public_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Jatiya Kabi Kazi Nazrul Islam University");
+                year.setText("2006");
+                student.setText("7,296(+-)");
+                hall.setText("2");
+                department.setText("19");
+                nickName.setText("JKKNIU");
+                location.setText("Mymensingh, Bangladesh");
+                campus.setText("Urban, 57 acres (23 ha)");
+
+                email.setText("N/A");
+                mobile.setText("N/A");
+                webAddress.setText("www.jkkniu.edu.bd");
+
+                faculty1.setText("01. Faculty of Science and Engineering:");
+                faculty1txt1.setText("1. Department of Computer Science and Engineering (CSE)\n2. Department of Electrical and Electronic Engineering (EEE)\n3. Department of Environmental Science & Engineering (ESE)" +
+                        "\n4. Department of Statistics");
+
+                faculty2.setText("02. Faculty of Arts:");
+                faculty2txt1.setText("1. Department of Bangla Language and Literature\n2. Department of English language and Literature\n3. Department of Fine arts\n4. Department of Theatre and Performance Studies" +
+                        "\n5. Department of Music\n6. Department of Film & Media studies\n7. Department of Philosophy");
+
+                faculty3.setText("03. Faculty of Business Administration:");
+                faculty3txt1.setText("1. Department of Accounting and Information Systemse\n2. Department of Finance and Banking\n3. Department of Human Resource Management\n4. Department of Management");
+
+                faculty4.setText("04. Faculty of Social Science:");
+                faculty4txt1.setText("1. Department of Economics\n2. Department of Public Administration & Governance Studies\n3. Department of Folklore\n4. Department of Law & Justice\n5. Department of Anthropology" +
+                        "\n6. Department of Population Sciences\n7. Local Government and Urban developmen\n8.Department of Sociology");
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //COU
+            else if(value.equals("COU")) {
+                getSupportActionBar().setTitle("COU");
+                scrl.setBackgroundResource(R.drawable.public_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Comilla University");
+                year.setText("2006");
+                student.setText("7,055(+-)");
+                hall.setText("4");
+                department.setText("19");
+                nickName.setText("COU");
+                location.setText("Cumilla, Bangladesh");
+                campus.setText("(54 acres),Salmanpur,(200 acres),Rajarkhola, Kotbari, Cumilla");
+
+                email.setText("info@jnu.ac.bd");
+                mobile.setText("+88-02-9534255");
+                webAddress.setText("www.jnu.ac.bd");
+
+                faculty1.setText("01. Faculty of Arts & Humanities:");
+                faculty1txt1.setText("1. Department of Bengali\n2. Department of English");
+
+                faculty2.setText("02. Faculty of Social Sciences:");
+                faculty2txt1.setText("1. Department of Archaeology\n2. Department of Anthropology\n3. Department of Economics\n4. Department of Public Administration" +
+                        "\n5. Department of Media & Journalism");
+
+                faculty3.setText("03. Faculty of Law:");
+                faculty3txt1.setText("1. Department of Law");
+
+                faculty4.setText("04. Faculty of Engineering:");
+                faculty4txt1.setText("1. Department of Computer Science & Engineering (BSc/MSc Eng. in CSE)\n2. Department of Information and Communication Technology (BSc/MSc Eng. in ICT)");
+
+                faculty5.setText("05. Faculty of Science:");
+                faculty5txt1.setText("1. Department of Mathematics\n2. Department of Physics\n3. Department of Chemistry\n4. Department of Statistics)" +
+                        "\n5. Department of Pharmacy");
+
+                faculty6.setText("06. Faculty of Business Studies:");
+                faculty6txt1.setText("1. Department of Marketing\n2. Department of Finance and Banking\n3. Department of Management Studies\n4. Department of Accounting and Information System");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //BUP
+            else if(value.equals("BUP")) {
+                getSupportActionBar().setTitle("BUP");
+                scrl.setBackgroundResource(R.drawable.public_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Bangladesh University of Professionals");
+                year.setText("2006");
+                student.setText("8,000+");
+                hall.setText("N/A");
+                department.setText("16");
+                nickName.setText("BUP");
+                location.setText("Dhaka, Bangladesh");
+                campus.setText("Urban, 56 acres");
+
+                email.setText("info@bup.edu.bd");
+                mobile.setText("+88-02-8000368");
+                webAddress.setText("www.bup.edu.bd");
+
+                faculty1.setText("01. Faculty of Arts and Social Sciences:");
+                faculty1txt1.setText("1. BA (Hons.) in English\n2. BSS (Hons.) in Economics\n3. BSS (Hons.) in Sociology\n4. BSS (Hons.) in Development Studies" +
+                        "\n5. BSS (Hons.) in Public Administration\n6. BSS (Hons.) in Disaster & Human Security Management");
+
+                faculty2.setText("02. Faculty of Social Sciences:");
+                faculty2txt1.setText("1. BBA in Accounting and Information Systems\n2. BBA in Finance and Banking\n3. Department of BBA in Management Studies\n4. Department of BBA in Marketing" +
+                        "\n5. BBA (General)");
+
+                faculty3.setText("03. Faculty of Security and Strategic Studies:");
+                faculty3txt1.setText("1. LLB (Hons.) in Law\n2. BSS (Hons.) in International Relations (IR)\n2. BSS (Hons.) in Mass Communication & Journalism");
+
+                faculty4.setText("04. Faculty of Science and Technology:");
+                faculty4txt1.setText("1. BSc (Hons.) in Information & Communication Engineering\n2. BSc (Hons.) in Environmental Science");
+
+                faculty5.setText("05. Faculty of Medical Studies:");
+                faculty5txt1.setText("1. Food & Nutrition\n2. Pharmacy\n3. Public Health & Informatics");
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //BRUR
+            else if(value.equals("BRUR")) {
+                getSupportActionBar().setTitle("BRUR");
+                scrl.setBackgroundResource(R.drawable.public_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Begum Rokeya University, Rangpur");
+                year.setText("2008");
+                student.setText("7,120(+-)");
+                hall.setText("3");
+                department.setText("21");
+                nickName.setText("BRUR");
+                location.setText("Rangpur, Bangladesh");
+                campus.setText("Urban , 75 acres (30 ha)");
+
+                email.setText("info@brur.ac.bd");
+                mobile.setText("+8801552-421008");
+                webAddress.setText("www.brur.ac.bd");
+
+                faculty1.setText("01. Faculty of Arts:");
+                faculty1txt1.setText("1. Department of Bangla\n2. Department of English\n3. Department of History and Archaeology");
+
+                faculty2.setText("02. Faculty of Social Science:");
+                faculty2txt1.setText("1. Department of Economics\n2. Department of Sociology\n3. Department of Political Science\n4. Department of Gender and Development Studies" +
+                        "\n5. Department of Mass Communication and Journalism\n6. Department of Public Administration");
+
+                faculty3.setText("03. Faculty of Business Studies:");
+                faculty3txt1.setText("1. Department of Accounting and Information Systems\n2. Department of Management Studies\n3. Department of Marketing\n4. Department of Finance and Banking");
+
+                faculty4.setText("04. Faculty of Science:");
+                faculty4txt1.setText("1. Department of Physics\n2. Department of Chemistry\n3. Department of Mathematics\n4. Department of Statistics");
+
+                faculty5.setText("05. Faculty of Engineering & Technology:");
+                faculty5txt1.setText("1. Department of Electrical and Electronic Engineering\n2. Department of Computer Science and Engineering");
+
+                faculty6.setText("06. Faculty of Life and Earth Sciences:");
+                faculty6txt1.setText("1. Department of Geography and Environmental Science\n2. Department of Disaster Management");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //BU
+            else if(value.equals("BU")) {
+                getSupportActionBar().setTitle("BU");
+                scrl.setBackgroundResource(R.drawable.public_background);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("University of Barisal ( BU )");
+                year.setText("2011");
+                student.setText("7,786(+-)");
+                hall.setText("3");
+                department.setText("20");
+                nickName.setText("BU");
+                location.setText("Barisal, Bangladesh");
+                campus.setText("Suburban (50 acres)");
+
+                email.setText("admission@bu.edu.bd");
+                mobile.setText("+88-01744-291258");
+                webAddress.setText("www.bu.edu.bd");
+
+                faculty1.setText("01. Faculty of Science and Engineering:");
+                faculty1txt1.setText("1. Department of Mathematics\n2. Department of Computer Science & Engineering\n3. Department of Chemistry\n4. Department of Physics" +
+                        "\n5. Department of Geology and Mining\n6. Department of Statistics");
+
+                faculty2.setText("02. Faculty of Bio-Sciences:");
+                faculty2txt1.setText("1. Department of Soil and Environmental Sciences\n2. Department of Botany\n3. Department of Coastal Studies and Disaster Management\n4. Department of Biochemistry and Biotechnology");
+
+                faculty3.setText("03. Faculty of Arts and Humanities:");
+                faculty3txt1.setText("1. Department of Bangla\n2. Department of English\n3. Department of Philosophy\n4. Department of Mass Communication & Journalism" +
+                        "\n5. Department of History and Civilization");
+
+                faculty4.setText("04. Faculty of Social Science:");
+                faculty4txt1.setText("1. Department of Economics\n2. Department of Political Science\n3. Department of Public Administration\n4. Department of Sociology");
+
+                faculty5.setText("05. Faculty of Business Studies:");
+                faculty5txt1.setText("1. Department of Accounting and Information System\n2. Department of Finance and Banking\n3. Department of Marketing\n4. Department of Management Studies");
+
+                faculty6.setText("06. Faculty of Law:");
+                faculty6txt1.setText("1. Department of Law");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
 
                 faculty8.setVisibility(View.GONE);
                 faculty8txt1.setVisibility(View.GONE);
