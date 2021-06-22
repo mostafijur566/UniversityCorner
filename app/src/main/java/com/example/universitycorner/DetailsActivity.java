@@ -2303,6 +2303,253 @@ public class DetailsActivity extends AppCompatActivity {
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
             }
+
+            //...............................General University..............................
+
+            //...............................Private University..............................
+
+            //Asian University for Women
+            else if(value.equals("AUW")) {
+                getSupportActionBar().setTitle("AUW");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Private University");
+
+                varsityName.setText("Asian University for Women");
+                year.setText("2008");
+                student.setText("890");
+                hall.setText("N/A");
+                department.setText("N/A");
+                nickName.setText("AUW");
+                location.setText("Chittagong, Bangladesh");
+                campus.setText("N/A");
+
+                email.setText("admissions@auw.edu.bd");
+                mobile.setText("+880-31-285-4980");
+                webAddress.setText("www.asian-university.org");
+
+                facultyDepartment.setVisibility(View.GONE);
+
+                faculty1.setVisibility(View.GONE);
+                faculty1txt1.setVisibility(View.GONE);
+
+                faculty2.setVisibility(View.GONE);
+                faculty2txt1.setVisibility(View.GONE);
+
+                faculty3.setVisibility(View.GONE);
+                faculty3txt1.setVisibility(View.GONE);
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //Bandarban University
+            else if(value.equals("BUC")) {
+                getSupportActionBar().setTitle("BUC");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Private University");
+
+                varsityName.setText("Bandarban University ");
+                year.setText("2018");
+                student.setText("N/A");
+                hall.setText("N/A");
+                department.setText("3");
+                nickName.setText("BUC");
+                location.setText("Chittagong, Bangladesh");
+                campus.setText("N/A");
+
+                email.setText("info@bubban.edu.bd");
+                mobile.setText("+8801318-305899");
+                webAddress.setText("www.bubban.edu.bd");
+
+                faculty1.setText("01. School of Arts, Social Science and Law:");
+                faculty1txt1.setText("1. Department of English\n2. Department of Governance and Development Studies");
+
+                faculty2.setText("02. School of Business Administration:");
+                faculty2txt1.setText("1. Department of Business Administration\n2. Department of Hospitality & Tourism Management");
+
+                faculty3.setText("03. School of Science, Engineering and Technology");
+                faculty3txt1.setText("1. Department of Computer Science and Engineering");
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //BGC Trust University Bangladesh
+            else if(value.equals("BGCTUB")) {
+                getSupportActionBar().setTitle("BGCTUB");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Private University");
+
+                varsityName.setText("BGC Trust University Bangladesh");
+                year.setText("2001");
+                student.setText("10,600");
+                hall.setText("N/A");
+                department.setText("5");
+                nickName.setText("BUC");
+                location.setText("Chittagong, Bangladesh");
+                campus.setText("Rural, 100 acres (0.40 km2)");
+
+                email.setText("infor@bgctub.ac.bd");
+                mobile.setText("+88-03033-56192-3");
+                webAddress.setText("www.bgctub.ac.bd");
+
+                faculty1.setText("01. Faculty of Arts:");
+                faculty1txt1.setText("1. Department of English");
+
+                faculty2.setText("02. Faculty of Business Administration:");
+                faculty2txt1.setText("1. Department of Business Administration");
+
+                faculty3.setText("03. Faculty of Law");
+                faculty3txt1.setText("1. Department of Law");
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //Chittagong Independent University
+            else if(value.equals("CIU")) {
+                getSupportActionBar().setTitle("CIU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Private University");
+
+                varsityName.setText("Chittagong Independent University");
+                year.setText("2001");
+                student.setText("10,600");
+                hall.setText("N/A");
+                department.setText("5");
+                nickName.setText("BUC");
+                location.setText("Chittagong, Bangladesh");
+                campus.setText("Jamal Khan");
+
+                email.setText("info@ciu.edu.bd");
+                mobile.setText("+88-031-611262");
+                webAddress.setText("www.ciu.edu.bd");
+
+                faculty1.setText("01. School of Business:");
+                faculty1txt1.setText("1. Department of Business Administration");
+
+                faculty2.setText("02. School of Engineering and Computer Science:");
+                faculty2txt1.setText("1. Department of Computer Science\n2. Department of Computer Science and Engineering\n3. Department of Electrical and Electronic Engineering" +
+                        "\n4. Department of Electronics and Telecommunication Engineering");
+
+                faculty3.setText("03. School of Law:");
+                faculty3txt1.setText("1. Department of Law");
+
+                faculty4.setText("04. School of Liberal Arts and Social Sciences");
+                faculty4txt1.setText("1. Department of English");
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
         }
     }
 

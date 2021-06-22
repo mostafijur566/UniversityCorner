@@ -46,6 +46,7 @@ public class VarsityList extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
 
+        //storing list from string_resources
         if(bundle != null)
         {
             value = bundle.getString("tag");
@@ -362,6 +363,39 @@ public class VarsityList extends AppCompatActivity {
                 }
 
                 //...............................General University..............................
+
+                //...............................Private University..............................
+
+                else if(value.equals("pvt"))
+                {
+                    if(adapter.getItem(position).equals("Asian University for Women, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "AUW");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Bandarban University, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "BUC");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("BGC Trust University Bangladesh, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "BGCTUB");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Chittagong Independent University"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "CIU");
+                        startActivity(intent);
+                    }
+                }
             }
         });
     }
