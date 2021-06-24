@@ -395,6 +395,48 @@ public class VarsityList extends AppCompatActivity {
                         intent.putExtra("tag", "CIU");
                         startActivity(intent);
                     }
+
+                    else if(adapter.getItem(position).equals("Coxs Bazar International University, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "CBIU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("East Delta University, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "EDU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("International Islamic University, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "IIUC");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Port City International University, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "PCIU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Premier University, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "PU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Southern University Bangladesh, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "SUB");
+                        startActivity(intent);
+                    }
                 }
             }
         });
