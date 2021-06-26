@@ -364,6 +364,76 @@ public class VarsityList extends AppCompatActivity {
 
                 //...............................General University..............................
 
+                //...............................Science and Technology University..............................
+
+                else if(value.equals("tech"))
+                {
+                    if(adapter.getItem(position).equals("Shahjalal University of Science and Technology ( SUST )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "SUST");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Noakhali Science and Technology ( NSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "NSTU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Hajee Mohammad Danesh Science and Technology ( HSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "HSTU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Mawalana Bhashani Science and Technology University ( MBSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "MBSTU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Patuakhali Science and Technology University ( PSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "PSTU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Jessore University of Science and Technology ( JUST )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "JUST");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Bangabandhu Sheikh Mujibur Rahman Science and Technology ( BSMRSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "BSMRSTU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Rangamati Science and Technology University ( RMSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "RMSTU");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Chandpur Science and Technology University ( CSTU )"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "CSTU");
+                        startActivity(intent);
+                    }
+                }
+
+                //...............................Science and Technology University..............................
+
                 //...............................Private University..............................
 
                 else if(value.equals("pvt"))
@@ -438,6 +508,8 @@ public class VarsityList extends AppCompatActivity {
                         startActivity(intent);
                     }
                 }
+
+                //...............................Private University..............................
             }
         });
     }

@@ -676,6 +676,7 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
             }
 
             //Southern Medical College
@@ -2912,6 +2913,562 @@ public class DetailsActivity extends AppCompatActivity {
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
             }
+
+            //...............................Private University..............................
+
+            //...............................Science and Technology University..............................
+
+            //SUST
+            else if(value.equals("SUST")) {
+                getSupportActionBar().setTitle("SUST");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Shahjalal University of Science and Technology ( SUST )");
+                year.setText("1986");
+                student.setText("7,662(+-)");
+                hall.setText("5");
+                department.setText("28");
+                nickName.setText("SUST");
+                location.setText("Akhalia, Kumargaon, Sylhet, Bangladesh");
+                campus.setText("Urban 320 acres (130 ha) (Main campus)");
+
+                email.setText("system.admin@sust.edu");
+                mobile.setText("+880-821-713491");
+                webAddress.setText("www.sust.edu");
+
+                faculty1.setText("01. School of Agriculture and Mineral Sciences:");
+                faculty1txt1.setText("1. Department of Forestry & Environmental Science (FES)");
+
+                faculty2.setText("02. School of Applied Sciences and Technology:");
+                faculty2txt1.setText("1. Department of Architecture (ARC)\n2. Department of Chemical Engineering & Polymer Science (CEP)\n3. Department of Civil & Environmental Engineering (CEE)\n4. Department of Computer Science & Engineering (CSE)\n5. Department of Electrical & Electronic Engineering (EEE)\n6. Department of Food Engineering & Tea Technology (FET)\n7. Department of Industrial & Production Engineering (IPE)\n8. Department of Mechanical Engineering (MEE)\n9. Department of Petroleum & Mining Engineering (PME)");
+
+                faculty3.setText("03. School of Physical Sciences:");
+                faculty3txt1.setText("1. Department of Chemistry (CHE)\n2. Department of Geography and Environment (GEE)\n3. Department of Mathematics (MAT)\n4. Department of Physics (PHY)\n5. Department of Statistics (STA)\n6. Department of Oceanography (OCG)");
+
+                faculty4.setText("04. School of Social Sciences:");
+                faculty4txt1.setText("1. Department of Anthropology (ANP)\n2. Department of Bangla (BNG)\n3. Department of Economics (ECO)\n4. Department of English (ENG)\n5. Department of Political Studies (PSS)\6. Department of Public Administration (PAD)\n7. Department of Social work (SCW)\n8. Department of Sociology (SOC)");
+
+                faculty5.setText("05. School of Life Sciences:");
+                faculty5txt1.setText("1. Department of Bio-Chemistry and Molecular Biology (BMB)\n2. Department of Genetic Engineering and Biotechnology (GEB-SUST)");
+
+                faculty6.setText("06. School of Management and Business Administration:");
+                faculty6txt1.setText("1. Department of Business Administration");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //NSTU
+            else if(value.equals("NSTU")) {
+                getSupportActionBar().setTitle("NSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Noakhali Science and Technology University");
+                year.setText("2005");
+                student.setText("5,437(+-)");
+                hall.setText("5");
+                department.setText("17");
+                nickName.setText("NSTU");
+                location.setText("Science and Technology University Sonapur, University Rd, Noakhali 3814");
+                campus.setText("Urban; 101 acres (41 ha)");
+
+                email.setText("softbox@nstu.edu.bd");
+                mobile.setText("+8801708413520");
+                webAddress.setText("www.nstu.edu.bd");
+
+                faculty1.setText("01. Faculty of Engineering and Technology:");
+                faculty1txt1.setText("1. Department of Computer Science and Telecommunication Engineering\n2. Department of Applied Chemistry and Chemical Engineering\n3. Department of Information and Communication Engineering\n4. Department of Electrical and Electronic Engineering(EEE)");
+
+                faculty2.setText("02. Faculty of Science:");
+                faculty2txt1.setText("1.Department of Fisheries and Marine Science\n2. Department of Pharmacy\n3. Department of Microbiology\n4. Department of Applied Mathematics\n5. Department of Food Technology and Nutrition Science\n6. Department of Environmental Science and Disaster Management\n7. Department of Biotechnology and Genetic Engineering\n8. Department of Agriculture\n9. Department of Statistics\n10.  Department of Oceanography\n11. Department of Biochemistry and Molecular Biology\12. Department of Zoology");
+
+                faculty3.setText("03. Faculty of Social Science and Humanities:");
+                faculty3txt1.setText("1. Department of English\n2. Department of Economics\n3. Department of Bangladesh and Liberation War Studies\n4. Department of Sociology\n5. Department of Bangla\n6. Department of Social Work");
+
+                faculty4.setText("04. Faculty of Business Administration:");
+                faculty4txt1.setText("1. Department of Business Administration\n2. Department of Tourism and Hospitality Management\n3. Department of Management Information Systems");
+
+                faculty5.setText("05. Faculty of Education Science:");
+                faculty5txt1.setText("1. Department of Education\n2. Department of Educational Administration");
+
+                faculty6.setText("06. Faculty of Law:");
+                faculty6txt1.setText("1. Department of Law");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //HSTU
+            else if(value.equals("HSTU")) {
+                getSupportActionBar().setTitle("HSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Hajee Mohammad Danesh Science and Technology University (HSTU)");
+                year.setText("1979");
+                student.setText("11000(+-)");
+                hall.setText("7");
+                department.setText("47");
+                nickName.setText("HSTU");
+                location.setText("Dinajpur, Bangladesh");
+                campus.setText("Rural (85 acres)");
+
+                email.setText("registrar@hstu.ac.bd");
+                mobile.setText("+880-531-61355");
+                webAddress.setText("www.hstu.ac.bd");
+
+                faculty1.setText("01. Faculty of Agriculture:");
+                faculty1txt1.setText("1. Department of Agronomy\n2. Department of Horticulture\n3. Department of Soil Science\n4. Department of Entomology" +
+                        "\n5. Department of Plant Pathology\n6. Department of Genetics & Plant Breeding\n7. Crop Physiology & Ecology\n8. Department of Agricultural Chemistry\n9. Department of Agroforestry And Environment\n10. Department of Biochemistry & Molecular Biology");
+
+                faculty2.setText("02. Faculty of Computer Science and Engineering:");
+                faculty2txt1.setText("1. Department of Computer Science & Engineering\n2. Department of Electronics and Communication Engineering\n3. Department of Electrical & Electronic Engineering");
+
+                faculty3.setText("03. Faculty of Business Studies:");
+                faculty3txt1.setText("1. Department of Accounting\n2. Department of Management Studies\n3. Department of Marketing\n4. Department of Finance and Banking");
+
+                faculty4.setText("04. Faculty of Fisheries:");
+                faculty4txt1.setText("1. Department of Fisheries Biology & Genetics\n2. Department of Fisheries Management\n3. Department of Fisheries Technology\n4. Department of Aquaculture");
+
+                faculty5.setText("05. Faculty of Veterinary & Animal Science:");
+                faculty5txt1.setText("1.  Microbiology\n2. Department of Pathology and Parasitology\n3. Department of Dairy and Poultry Science \n4. Department of Anatomy and Histology\n5. Department of General Animal Science and Nutrition\n6. Department of Genetics and Animal breeding\n7. Department of Medicine, Surgery and Obstetrics\n8. Department of Physiology &Pharmacology");
+
+                faculty6.setText("06. Faculty of  Engineering:");
+                faculty6txt1.setText("1. Department of Agricultural & Industrial Engineering\n2. Department of Food Processing & Preservation\n3. Department of Food Engineering & Technology\n4. Department of Food Science & Nutrition\n5. Department of Architecture\n6. Department of Civil Engineering\n7. Department of Mechanical Engineering");
+
+                faculty7.setText("07. Faculty of Science:");
+                faculty7txt1.setText("1. Department of Chemistry\n2. Department of Statistics\n3. Department of Mathematics\n4. Department of Mathematics");
+
+                faculty8.setText("08. Faculty of Social Science & Arts:");
+                faculty8txt1.setText("1. Department of English\n2. Department of Economics\n3. Department of Sociology\n4. Department of Development Studies");
+
+                faculty9.setText("09. Faculty of Postgraduate");
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //MBSTU
+            else if(value.equals("MBSTU")) {
+                getSupportActionBar().setTitle("MBSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Mawlana Bhashani Science and Technology University ( MBSTU )");
+                year.setText("1999");
+                student.setText("5,671(+-)");
+                hall.setText("5");
+                department.setText("15 ");
+                nickName.setText("MBSTU");
+                location.setText("Tangail, Bangladesh");
+                campus.setText("Urban (70.69 acres)");
+
+                email.setText("registrar@mbstu.ac.bd");
+                mobile.setText("+880921 55399");
+                webAddress.setText("www.mbstu.ac.bd");
+
+                faculty1.setText("01. Faculty of Engineering:");
+                faculty1txt1.setText("1. Department ofComputer Science and Engineering\n2. Department of Information and Communication Technology\n3. Department of Textile Engineering");
+
+                faculty2.setText("02. Faculty of Life Science:");
+                faculty2txt1.setText("1. Department of Environmental Science and Resource Management\n2. Department of Criminology and Police Science\n3. Department of Biochemistry and Molecular Biology\n4. Department of Biotechnology and Genetic Engineering\n5. Department of Food Technology and Nutrition Science\n6. Department of Food Technology and Nutrition Science\n7. Department of Pharmacy");
+
+                faculty3.setText("03. Faculty of Science:");
+                faculty3txt1.setText("1. Department of Chemistry \n2. Department of Mathematics\n3. Department of Physics\n4. Department of Statistics");
+
+                faculty4.setText("04. Faculty of Business Studies:");
+                faculty4txt1.setText("1. Department of Business Administration\n2. Department of Accounting\n3. Department of Management Studies");
+
+                faculty5.setText("05. Faculty of Social Science:");
+                faculty5txt1.setText("1. Department of Economics");
+
+                faculty6.setText("06. Faculty of Arts:");
+                faculty6txt1.setText("1. Department of English");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //PSTU
+            else if(value.equals("PSTU")) {
+                getSupportActionBar().setTitle("PSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Patuakhali Science and Technology University(PSTU )");
+                year.setText("1972(Start as a university in 2000)");
+                student.setText("(3000+-)");
+                hall.setText("5");
+                department.setText("53");
+                nickName.setText("PSTU");
+                location.setText("Dumki Upazila, Patuakhali District, 8602, Bangladesh	");
+                campus.setText("89.97Acres (including Babugonj:12.97acres)");
+
+                email.setText("pstu@pstu.ac.bd");
+                mobile.setText("+88-04427-56003");
+                webAddress.setText("www.pstu.ac.bd");
+
+                faculty1.setText("01.Faculty of Agriculture :");
+                faculty1txt1.setText("1.  Agriculture Botany \n2.  Agriculture Chemistry \n3. Agriculture Engineering \n4.Agricultural Extension and Rural Development"  +
+                        "\n5. Agroforestry \n6. Agronomy\n7. Biotechnology \n8.Entomology \n9.Genetics and Plant Breeding \n10.Horticulture \n11.Plant Pathology \n12.Soil Science \n13. Statistics\n14.Animal Science ");
+
+                faculty2.setText("02. Faculty of Computer Science and Engineering :");
+                faculty2txt1.setText("1.Computer and Communication Engineering\n2. Computer Science and Information Technology \n3.Electrical and Electronics Engineering\n4.Mathematics " +
+                        " \n5.Physics and Mechanical Engineering ");
+
+                faculty3.setText("03.Faculty of Business Administration and Management :");
+                faculty3txt1.setText("1.Accounting and Information Systems \n2.Economics and Sociology\n3.Finance and Banking \n4.Language and Communication " +
+                        "\n5. Management Studies \n6.Marketing");
+
+                faculty4.setText("04.Faculty of Animal Science and Veterinary Medicine:");
+                faculty4txt1.setText("1.Dairy Science \n2. Anatomy and Histology \n3.Animal Products and By-Products Technology \n4.Basic Science"  +
+                        " \n5.General Animal Science and Animal Nutrition \n6.Genetics and Animal Breeding \n7.Medicine Surgery and Obstetrics \n8.Microbiology and Public Health \n9.Physiology and Pharmacology \n10.Pathology and Parasitology \n11. Poultry Science");
+
+                faculty5.setText("05. Faculty of Fisheries :");
+                faculty5txt1.setText("1.Aquaculture  \n2.Fisheries Biology and Genetics   \n3.Fisheries Management \n4.Fisheries Technology"  + " \n5.Marine Fisheries and Oceanography");
+
+                faculty6.setText("06.Faculty of Environmental Science and Disaster Management:");
+                faculty6txt1.setText("1.Disaster Resilience and Engineering \n2. Disaster Risk Management \n3.Emergency Management  \n4.Environmental Science" +
+                        "\n5. Geo Information Science and Earth Observation ");
+                faculty7.setText("07.Faculty of Nutrition and Food Science  :");
+                faculty7txt1.setText("1.Biochemistry and Food Analysis\n2.  Community Health and Hygiene \n3.Environmental Sanitation  \n4.Food Microbiology" +
+                        "\n5. Food Technology and Engineering \n6.Human Nutrition and Dietetics \n7.Post Harvest Technology and Marketing ");
+                faculty8.setText("08.Faculty of Land Management and Administration:");
+                faculty8txt1.setText("1.Geomatics \n2. Geodesy  \n3. Land Administration \n4.Land Policy and Law " +
+                        "\n5.Land Record and Transformation  ");
+
+                faculty9.setText("09.Faculty of Postgraduate Studies :");
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //JUST
+            else if(value.equals("JUST")) {
+                getSupportActionBar().setTitle("JUST");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("JASHORE UNIVERSITY OF SCIENCE AND TECHNOLOGY(JUST)");
+                year.setText("2007");
+                student.setText("(3,731+-)");
+                hall.setText("2");
+                department.setText("20");
+                nickName.setText("JUST");
+                location.setText("Jashore Sadar, 7408, Bangladesh");
+                campus.setText("Urban 35 acres (14 ha)");
+
+                email.setText("registrar@just.edu.bd");
+                mobile.setText("+88-0421-61111");
+                webAddress.setText("www.just.edu.bd");
+
+                faculty1.setText("01. Faculty of Engineering and Technology :");
+                faculty1txt1.setText("1.Computer Science and Engineering (CSE) \n2.Electrical and Electronic Engineering (EEE)\n3.Industrial and Production Engineering (IPE) \n4.Petroleum and Mining Engineering (PME)" +
+                        "\n5.Chemical Engineering (ChE) \n6.Biomedical Engineering (BME) \n7.Textile Engineering (TE)");
+
+                faculty2.setText("02. Faculty of Arts and Social Science :");
+                faculty2txt1.setText("1.English (ENG)");
+
+                faculty3.setText("03. Faculty of Biological Science and Technology :");
+                faculty3txt1.setText("1.Microbiology (MB)\n2.Fisheries & Marine Bioscience (FMB)\n3.Genetic engineering & Biotechnology (GEBT)\n4.Pharmacy (B.Pharm professional)");
+
+                faculty4.setText("04. Faculty of Health Science :");
+                faculty4txt1.setText("1.Physical Education & Sports Science (PESS)\n2.Physiotherapy and Rehabilitation\n3.Nursing Science (NS)");
+
+                faculty5.setText("05 .Faculty of  Science :");
+                faculty5txt1.setText("1.Mathematics\n2.Physics\n3.Chemistry");
+
+                faculty6.setText("06 . Faculty of Business Studies:");
+                faculty6txt1.setText("1.Accounting and Information Systems (AIS)\n2. Management\n3.Finance and Banking\n4.Marketing");
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //BSMRSTU
+            else if(value.equals("BSMRSTU")) {
+                getSupportActionBar().setTitle("BSMRSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Bangabandhu Sheikh Mujibur Rahman Science and Technology University (BSMRSTU )");
+                year.setText("2001");
+                student.setText("(11,000+-)");
+                hall.setText("3");
+                department.setText("23");
+                nickName.setText("BSMRSTU");
+                location.setText("	Gopalganj-8100, Bangladesh");
+                campus.setText("55 acres (0.22 km2)");
+
+                email.setText("registrar@bsmrstu.edu.bd");
+                mobile.setText("+88-02-6682257");
+                webAddress.setText("www.bsmrstu.edu.bd");
+
+                faculty1.setText("01.Faculty of Engineering :");
+                faculty1txt1.setText("1.Physics \n2.Chemistry  \n3. Mathematics \n4." +
+                        "\n5. Environmental Science and Disaster Management ");
+
+                faculty2.setText("02. Faculty of Science :");
+                faculty2txt1.setText("1. Department of Soil and Environmental Sciences\n2. Department of Botany\n3. Department of Coastal Studies and Disaster Management\n4. Department of Biochemistry and Biotechnology");
+
+                faculty3.setText("03.Faculty of Life Science :");
+                faculty3txt1.setText("1.Pharmacy \n2.Biotechnology and Genetic Engineering\n3. Biochemistry and Molecular Biology\n4.Botany " +
+                        "\n5.Psychology ");
+
+                faculty4.setText("04.Faculty of Arts :");
+                faculty4txt1.setText("1. English\n2.Bangla  \n3.History");
+
+                faculty5.setText("05. Faculty of Social Science:");
+                faculty5txt1.setText("1. Economics \n2. Sociology  \n3.Public Administration \n4. International Relations + \n5.Political Science");
+
+                faculty6.setText("06.Faculty of Business Studies :");
+                faculty6txt1.setText("1.Management Studies \n2. Accounting and Information System \n3. Marketing \n4.Finance and Banking" +
+                        "\n5. Tourism and Hospitality Management ");
+                faculty7.setText("07.Faculty of Law :");
+                faculty7txt1.setText("1. Law ");
+                faculty8.setText("08.Sheikh Hasina Agriculture Institute :");
+                faculty8txt1.setText("1.Agriculture \n2. Fisheries and Marine Bioscience  \n3. Livestock Science and Veterinary Medicine ");
+
+                        faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //RMSTU
+            else if(value.equals("RMSTU")) {
+                getSupportActionBar().setTitle("RMSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Rangamati Science and Technology University(RMSTU )");
+                year.setText("	2014");
+                student.setText("(200+-)");
+                hall.setText("N/A");
+                department.setText("4");
+                nickName.setText("RMSTU");
+                location.setText("Vedvedi, Rangamati, Chittagong, Bangladesh");
+                campus.setText("65 acres (26 ha)");
+
+                email.setText("contact@rmstu.edu.bd");
+                mobile.setText("+8801704383642");
+                webAddress.setText("www.rmstu.edu.bd");
+
+                faculty1.setText("01.Faculty of Engineering :");
+                faculty1txt1.setText("1.Computer Science and Engineering");
+                faculty2.setText("02. Faculty of Biological Science:");
+                faculty2txt1.setText("1. Forestry and Environmental Science");
+
+                faculty3.setText("03.Faculty of BBA :");
+                faculty3txt1.setText("1.Tourism and hospitality management \n2.Business Management");
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //CSTU
+            else if(value.equals("CSTU")) {
+                getSupportActionBar().setTitle("CSTU");
+                scrl.setBackgroundResource(R.drawable.background_pvt);
+
+                overviewTxt1.setText("Public University");
+
+                varsityName.setText("Chandpur Science and Technology University");
+                year.setText("2021");
+                student.setText("(200+-)");
+                hall.setText("N/A");
+                department.setText("N/A");
+                nickName.setText("RMSTU");
+                location.setText("Chandpur, Bangladesh");
+                campus.setText("Urban");
+
+                email.setText("info@cstu.ac.bd ");
+                mobile.setText("+880-00-00000");
+                webAddress.setText("www.cstu.ac.bd");
+
+                facultyDepartment.setVisibility(View.GONE);
+
+                faculty1.setVisibility(View.GONE);
+                faculty1txt1.setVisibility(View.GONE);
+                faculty2.setVisibility(View.GONE);
+                faculty2txt1.setVisibility(View.GONE);
+
+                faculty3.setVisibility(View.GONE);
+                faculty3txt1.setVisibility(View.GONE);
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //...............................Science and Technology University..............................
         }
     }
 
