@@ -434,6 +434,20 @@ public class VarsityList extends AppCompatActivity {
 
                 //...............................Science and Technology University..............................
 
+                //...............................National University..............................
+
+                else if(value.equals("national"))
+                {
+                    if(adapter.getItem(position).equals("Chittagong Govt College, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "CGC");
+                        startActivity(intent);
+                    }
+                }
+
+                //...............................National University..............................
+
                 //...............................Private University..............................
 
                 else if(value.equals("pvt"))
@@ -442,13 +456,6 @@ public class VarsityList extends AppCompatActivity {
                     {
                         Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
                         intent.putExtra("tag", "AUW");
-                        startActivity(intent);
-                    }
-
-                    else if(adapter.getItem(position).equals("Bandarban University, Chittagong"))
-                    {
-                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
-                        intent.putExtra("tag", "BUC");
                         startActivity(intent);
                     }
 
@@ -463,13 +470,6 @@ public class VarsityList extends AppCompatActivity {
                     {
                         Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
                         intent.putExtra("tag", "CIU");
-                        startActivity(intent);
-                    }
-
-                    else if(adapter.getItem(position).equals("Coxs Bazar International University, Chittagong"))
-                    {
-                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
-                        intent.putExtra("tag", "CBIU");
                         startActivity(intent);
                     }
 

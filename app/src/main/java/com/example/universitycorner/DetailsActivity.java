@@ -2329,7 +2329,8 @@ public class DetailsActivity extends AppCompatActivity {
                 mobile.setText("+880-31-285-4980");
                 webAddress.setText("www.asian-university.org");
 
-                facultyDepartment.setVisibility(View.GONE);
+                facultyDepartment.setText("Tuition fees: USD $9,000\nBooks, Course Supplies, Student Activities: USD $3,000\nRoom and Board: $3,000" +
+                        "\nTotal per year costs USD $15,000");
 
                 faculty1.setVisibility(View.GONE);
                 faculty1txt1.setVisibility(View.GONE);
@@ -2339,66 +2340,6 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty3.setVisibility(View.GONE);
                 faculty3txt1.setVisibility(View.GONE);
-
-                faculty4.setVisibility(View.GONE);
-                faculty4txt1.setVisibility(View.GONE);
-
-                faculty5.setVisibility(View.GONE);
-                faculty5txt1.setVisibility(View.GONE);
-
-                faculty6.setVisibility(View.GONE);
-                faculty6txt1.setVisibility(View.GONE);
-
-                faculty7.setVisibility(View.GONE);
-                faculty7txt1.setVisibility(View.GONE);
-
-                faculty8.setVisibility(View.GONE);
-                faculty8txt1.setVisibility(View.GONE);
-
-                faculty9.setVisibility(View.GONE);
-                faculty9txt1.setVisibility(View.GONE);
-
-                faculty10.setVisibility(View.GONE);
-                faculty10txt1.setVisibility(View.GONE);
-
-                faculty11.setVisibility(View.GONE);
-                faculty11txt1.setVisibility(View.GONE);
-
-                faculty12.setVisibility(View.GONE);
-                faculty12txt1.setVisibility(View.GONE);
-
-                faculty13.setVisibility(View.GONE);
-                faculty13txt1.setVisibility(View.GONE);
-            }
-
-            //Bandarban University
-            else if(value.equals("BUC")) {
-                getSupportActionBar().setTitle("BUC");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
-
-                overviewTxt1.setText("Private University");
-
-                varsityName.setText("Bandarban University ");
-                year.setText("2018");
-                student.setText("N/A");
-                hall.setText("N/A");
-                department.setText("3");
-                nickName.setText("BUC");
-                location.setText("Chittagong, Bangladesh");
-                campus.setText("N/A");
-
-                email.setText("info@bubban.edu.bd");
-                mobile.setText("+8801318-305899");
-                webAddress.setText("www.bubban.edu.bd");
-
-                faculty1.setText("01. School of Arts, Social Science and Law:");
-                faculty1txt1.setText("1. Department of English\n2. Department of Governance and Development Studies");
-
-                faculty2.setText("02. School of Business Administration:");
-                faculty2txt1.setText("1. Department of Business Administration\n2. Department of Hospitality & Tourism Management");
-
-                faculty3.setText("03. School of Science, Engineering and Technology");
-                faculty3txt1.setText("1. Department of Computer Science and Engineering");
 
                 faculty4.setVisibility(View.GONE);
                 faculty4txt1.setVisibility(View.GONE);
@@ -2452,13 +2393,13 @@ public class DetailsActivity extends AppCompatActivity {
                 webAddress.setText("www.bgctub.ac.bd");
 
                 faculty1.setText("01. Faculty of Arts:");
-                faculty1txt1.setText("1. Department of English");
+                faculty1txt1.setText("1. Department of English - Tuition Fees: 3,854/- per month x 48 = 1,85,000/-+ 15,000/- = TK.2,00,000/-");
 
                 faculty2.setText("02. Faculty of Business Administration:");
-                faculty2txt1.setText("1. Department of Business Administration");
+                faculty2txt1.setText("1. Department of Business Administration - Tuition Fees: 5,313/- per month x 48 = 2,55,000/-+ 15,000/- = TK.2,70,000/-");
 
                 faculty3.setText("03. Faculty of Law");
-                faculty3txt1.setText("1. Department of Law");
+                faculty3txt1.setText("1. Department of Law - Tuition Fees: 5,729/- per month x 48 = 2,75,000/-+ 15,000/- = TK.2,90,000/-");
 
                 faculty4.setVisibility(View.GONE);
                 faculty4txt1.setVisibility(View.GONE);
@@ -2512,77 +2453,19 @@ public class DetailsActivity extends AppCompatActivity {
                 webAddress.setText("www.ciu.edu.bd");
 
                 faculty1.setText("01. School of Business:");
-                faculty1txt1.setText("1. Department of Business Administration");
+                faculty1txt1.setText("1. Department of Business Administration\n\t\tTotal Credit: 133\n\t\tFees: 4000 x 133 = TK. 5,32,000/-\n\t\tOthers: 75,000/-, Total Fess: TK.60,07,000/-");
 
                 faculty2.setText("02. School of Engineering and Computer Science:");
                 faculty2txt1.setText("1. Department of Computer Science\n2. Department of Computer Science and Engineering\n3. Department of Electrical and Electronic Engineering" +
-                        "\n4. Department of Electronics and Telecommunication Engineering");
+                        "\n4. Department of Electronics and Telecommunication Engineering" +
+                        "\n\t\tFor all department total credit: 140\n\t\tFees: 4000 x 140 = 5,60,000/-\n\t\tOthers: 75,000/-, Total Fess: TK.6,35,000/-");
 
                 faculty3.setText("03. School of Law:");
-                faculty3txt1.setText("1. Department of Law");
+                faculty3txt1.setText("1. Department of Law\n\t\tTotal Credit: 138\n\t\tFees: 4000 x 138 = 5,52,000/-" +
+                        "\n\t\tOthers: 75,000/-, Total Fess: 6,27,000/-");
 
                 faculty4.setText("04. School of Liberal Arts and Social Sciences");
-                faculty4txt1.setText("1. Department of English");
-
-                faculty5.setVisibility(View.GONE);
-                faculty5txt1.setVisibility(View.GONE);
-
-                faculty6.setVisibility(View.GONE);
-                faculty6txt1.setVisibility(View.GONE);
-
-                faculty7.setVisibility(View.GONE);
-                faculty7txt1.setVisibility(View.GONE);
-
-                faculty8.setVisibility(View.GONE);
-                faculty8txt1.setVisibility(View.GONE);
-
-                faculty9.setVisibility(View.GONE);
-                faculty9txt1.setVisibility(View.GONE);
-
-                faculty10.setVisibility(View.GONE);
-                faculty10txt1.setVisibility(View.GONE);
-
-                faculty11.setVisibility(View.GONE);
-                faculty11txt1.setVisibility(View.GONE);
-
-                faculty12.setVisibility(View.GONE);
-                faculty12txt1.setVisibility(View.GONE);
-
-                faculty13.setVisibility(View.GONE);
-                faculty13txt1.setVisibility(View.GONE);
-            }
-
-            //Coxs Bazar International University, Chittagong
-            else if(value.equals("CBIU")) {
-                getSupportActionBar().setTitle("CBIU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
-
-                overviewTxt1.setText("Private University");
-
-                varsityName.setText("Coxs Bazar International University");
-                year.setText("2013");
-                student.setText("N/A");
-                hall.setText("N/A");
-                department.setText("5");
-                nickName.setText("CBIU");
-                location.setText("Cox’s Bazar, Bangladesh");
-                campus.setText("Dynamic Cox Kingdom, Kolatoli");
-
-                email.setText("cbiu.bd@gmail.com, info@cbiu.ac.bd");
-                mobile.setText("+88-0341-52510");
-                webAddress.setText("www.cbiu.ac.bd");
-
-                faculty1.setText("01. Faculty of Arts & Social Sciences :");
-                faculty1txt1.setText("1. Department of English");
-
-                faculty2.setText("02. Faculty of Business :");
-                faculty2txt1.setText("1. Department of Business Administration\n2. Department of Hospitality and Tourism Management");
-
-                faculty3.setText("03. Faculty of Engineering:");
-                faculty3txt1.setText("1. Department of Computer Science and Engineering");
-
-                faculty4.setText("04. Faculty of Law");
-                faculty4txt1.setText("1. Department of Law");
+                faculty4txt1.setText("1. Department of English\n\t\tTotal Credit: 129\n\t\tFees: 4000 x 129 = 5,16,000/-\n\t\tOthers: 75,000/-, Total Fess: TK. 3,33,000/-");
 
                 faculty5.setVisibility(View.GONE);
                 faculty5txt1.setVisibility(View.GONE);
@@ -2633,13 +2516,16 @@ public class DetailsActivity extends AppCompatActivity {
                 webAddress.setText("www.eastdelta.edu.bd");
 
                 faculty1.setText("01. School of Business Administration:");
-                faculty1txt1.setText("1. Department of Business Administration\n2. Department of Public Leadership, Management and Governance");
+                faculty1txt1.setText("1. Department of Business Administration\n\t\tTotal Credit: 125\n\t\tPer credit cost: 4,500/- semester fee: 11,000/-" +
+                        "\n\t\tTotal cost 65,000/- for 1 semester");
 
                 faculty2.setText("02. School of Liberal Arts & Social Science:");
-                faculty2txt1.setText("1. Department of Economics\n2. Department of English");
+                faculty2txt1.setText("1. Department of Economics\n2. Department of English" +
+                        "\n\t\tTotal Credit: 120\n\t\tPer credit cost: 4,000/- semester fee: 11,000/-\n\t\tTotal cost 35,000/- for 1 semester");
 
                 faculty3.setText("03. School of Science Engineering and Technology:");
-                faculty3txt1.setText("1. Department of Computer Science and Engineering\n2. Department of EEE\n3. Department of ETE");
+                faculty3txt1.setText("1. Department of Computer Science and Engineering\n2. Department of EEE\n3. Department of ETE" +
+                        "\n\t\tTotal Credit: 160\n\t\tPer credit cost: 4,000/- semester fee: 11,000/-\n\t\tTotal cost 47,000/- for 1 semester");
 
                 faculty4.setVisibility(View.GONE);
                 faculty4txt1.setVisibility(View.GONE);
@@ -3469,6 +3355,74 @@ public class DetailsActivity extends AppCompatActivity {
             }
 
             //...............................Science and Technology University..............................
+
+            //...............................National University..............................
+
+            //Chittagong Govt College
+            else if(value.equals("CGC")) {
+                getSupportActionBar().setTitle("CGC");
+                scrl.setBackgroundResource(R.drawable.national_background);
+
+                overviewTxt1.setText("Public");
+
+                varsityName.setText("Chittagong Govt College");
+                year.setText("1869");
+                student.setText("(18,000+)");
+                hall.setText("N/A");
+                department.setText("N/A");
+                nickName.setText("CGC");
+                location.setText("Chittagong, Bangladesh");
+                campus.setText("6 acres (urban)");
+
+                email.setText("ctgcollege@yahoo.com");
+                mobile.setText("+88031616045");
+                webAddress.setText("www.ctgcollege.gov.bd");
+
+                faculty1.setText("01. Faculty of Arts & Social Science:");
+                faculty1txt1.setText("1. Department of Bengali\n2. Department of English\n3. Department of Economics\n4. Department of Political Science" +
+                        "\n5. Department of History\n6. Department of Islamic History and Culture\n7. Department of Philosophy\n8. Department of Philosophy" +
+                        "\n9. Department of Sociology\n10. Department of Islamic Studies");
+
+                faculty2.setText("02. Faculty of Science:");
+                faculty2txt1.setText("1. Department of Geography\n2. Department of Physics\n3. Department of Chemistry\n4. Department of Botany" +
+                        "\n5. Department of Zoology\n6. Department of Statistics\n7. Department of Mathematics\n8. Department of Psychology");
+
+                faculty3.setVisibility(View.GONE);
+                faculty3txt1.setVisibility(View.GONE);
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+                faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //...............................National University..............................
         }
     }
 

@@ -62,14 +62,6 @@
     </string-array>
 
     <string-array name="national">
-        <item>Dhaka College, Dhaka</item>
-        <item>Eden Mohila College, Dhaka</item>
-        <item>Government Titumir College, Dhaka</item>
-        <item>Governement Bangla College, Dhaka</item>
-        <item>Dhaka City College, Dhaka</item>
-        <item>Dhaka Commerce College, Dhaka</item>
-        <item>Tejgaon College, Dhaka</item>
-        <item>Lalmatia Mohila College, Dhaka</item>
         <item>Chittagong Govt College, Chittagong</item>
         <item>Government City College, Chittagong</item>
         <item>Government Hazi Mohammad Mohsin College, Chittagong</item>
@@ -77,10 +69,8 @@
 
     <string-array name="pvt">
         <item>Asian University for Women, Chittagong</item>
-        <item>Bandarban University, Chittagong</item>
         <item>BGC Trust University Bangladesh, Chittagong</item>
         <item>Chittagong Independent University</item>
-        <item>Coxs Bazar International University, Chittagong</item>
         <item>East Delta University, Chittagong</item>
         <item>International Islamic University, Chittagong</item>
         <item>Port City International University, Chittagong</item>
