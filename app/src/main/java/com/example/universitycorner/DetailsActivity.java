@@ -2921,7 +2921,7 @@ public class DetailsActivity extends AppCompatActivity {
             //SUST
             else if(value.equals("SUST")) {
                 getSupportActionBar().setTitle("SUST");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -2981,7 +2981,7 @@ public class DetailsActivity extends AppCompatActivity {
             //NSTU
             else if(value.equals("NSTU")) {
                 getSupportActionBar().setTitle("NSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3041,7 +3041,7 @@ public class DetailsActivity extends AppCompatActivity {
             //HSTU
             else if(value.equals("HSTU")) {
                 getSupportActionBar().setTitle("HSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3102,7 +3102,7 @@ public class DetailsActivity extends AppCompatActivity {
             //MBSTU
             else if(value.equals("MBSTU")) {
                 getSupportActionBar().setTitle("MBSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3162,7 +3162,7 @@ public class DetailsActivity extends AppCompatActivity {
             //PSTU
             else if(value.equals("PSTU")) {
                 getSupportActionBar().setTitle("PSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3227,7 +3227,7 @@ public class DetailsActivity extends AppCompatActivity {
             //JUST
             else if(value.equals("JUST")) {
                 getSupportActionBar().setTitle("JUST");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3288,7 +3288,7 @@ public class DetailsActivity extends AppCompatActivity {
             //BSMRSTU
             else if(value.equals("BSMRSTU")) {
                 getSupportActionBar().setTitle("BSMRSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3349,7 +3349,7 @@ public class DetailsActivity extends AppCompatActivity {
             //RMSTU
             else if(value.equals("RMSTU")) {
                 getSupportActionBar().setTitle("RMSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
@@ -3409,7 +3409,7 @@ public class DetailsActivity extends AppCompatActivity {
             //CSTU
             else if(value.equals("CSTU")) {
                 getSupportActionBar().setTitle("CSTU");
-                scrl.setBackgroundResource(R.drawable.background_pvt);
+                scrl.setBackgroundResource(R.drawable.science_tech_background);
 
                 overviewTxt1.setText("Public University");
 
