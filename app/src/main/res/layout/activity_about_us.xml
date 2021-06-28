@@ -42,180 +42,340 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:weightSum="3"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
             android:padding="5dp"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             >
-
-            <TextView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="1. Syeda Zinath Tasnim\nEastDelta University"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
 
-            <TextView
-                android:layout_width="match_parent"
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Email: 181006012@eastdelta.edu.bd"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:clickable="true"
-                android:autoLink="email"
-                />
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Syeda Zinath Tasnim"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studies Computer Science and Engineering\n at East Delta University"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:weightSum="3"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
             android:padding="5dp"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             >
 
-            <TextView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="2. Joy Dhar\nEastDelta University"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
 
-            <TextView
-                android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joy Dhar"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studies Computer Science and Engineering\n at East Delta University"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Email: 181000512@eastdelta.edu.bd"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:clickable="true"
-                android:autoLink="email"
-                />
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mun Das"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studies Computer Science and Engineering\n at East Delta University"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:weightSum="3"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
             android:padding="5dp"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             >
 
-            <TextView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="3. Mun Das\nEastDelta University"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
 
-            <TextView
-                android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Raihan"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studies Computer Science and Engineering\n at East Delta University"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Email: 181005912@eastdelta.edu.bd"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:clickable="true"
-                android:autoLink="email"
-                />
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:weightSum="3"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
             android:padding="5dp"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             >
-
-            <TextView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="4. Md. Raihan\nEastDelta University"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
 
-            <TextView
-                android:layout_width="match_parent"
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Email: 181008612@eastdelta.edu.bd"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:clickable="true"
-                android:autoLink="email"
-                />
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Samiur ahmed"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studies Computer Science and Engineering\n at East Delta University"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:weightSum="3"
+            android:background="@drawable/border"
+            android:orientation="horizontal"
             android:padding="5dp"
+            android:gravity="center"
             android:layout_marginTop="10dp"
             >
 
-            <TextView
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="5. Md. Mostafijur Rahman\nEastDelta University"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
 
-            <TextView
-                android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Md. Mostafijur Rahman"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Studies Computer Science and Engineering\n at East Delta University"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Email: 192001812@eastdelta.edu.bd"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:clickable="true"
-                android:autoLink="email"
-                />
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
 
-        </LinearLayout>
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="5dp"
-            android:layout_marginTop="10dp"
-            >
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="6. Samiur ahmed\nEastDelta University"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Email: 173002012@eastdelta.edu.bd"
-                android:textAlignment="center"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:clickable="true"
-                android:autoLink="email"
-                />
+            </LinearLayout>
 
         </LinearLayout>
 
