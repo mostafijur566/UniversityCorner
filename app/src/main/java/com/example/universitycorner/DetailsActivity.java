@@ -2927,6 +2927,136 @@ public class DetailsActivity extends AppCompatActivity {
                 faculty13txt1.setVisibility(View.GONE);
             }
 
+            //GCC
+            else if(value.equals("GCC")) {
+                getSupportActionBar().setTitle("GCC");
+                scrl.setBackgroundResource(R.drawable.national_background);
+
+                overviewTxt1.setText("National University");
+
+                varsityName.setText("Government City College, Chittagong (GCC)");
+                year.setText("1954");
+                student.setText("(18,000+-)");
+                hall.setText("N/A");
+                department.setText("28");
+                nickName.setText("GCC");
+                location.setText("Ice Factory Road (near New Market), Chittagong-4000, Chittagong");
+                campus.setText("5.169 acres ");
+
+                email.setText("info@gccc.edu.bd");
+                mobile.setText("+8801031-636051");
+                webAddress.setText("www.gccc.edu.bd");
+
+                faculty1.setText("01.Faculty of H.S.C:");
+                faculty1txt1.setVisibility(View.GONE);
+
+                faculty2.setText("02. Faculty of B.B.A(Honours) :");
+                faculty2txt1.setText("1. Department of Accounting \n2. Department of  Management");
+
+                faculty3.setText("03.Faculty of B.Sc.(Honours) :");
+                faculty3txt1.setText("1.Department of Physics \n2.Department of Chemistry\n3.Department of Mathematics\n4.Department of Botany " +
+                        "\n5.Department of Zoology\n6.Department of English\n7.Department of Psychology ");
+
+                faculty4.setText("04.Faculty of B.B.S(Pass) :");
+                faculty4txt1.setText("1.Department of Accounting \n2. Department of  Management");
+
+                faculty5.setText("05.Faculty of M.B.A  :");
+                faculty5txt1.setText("1.Department of Accounting \n2. Department of  Management");
+
+                faculty6.setText("03.Faculty of B.Sc.  (Degree pass course) :");
+                faculty6txt1.setText("1.Department of Physics \n2.Department of Chemistry\n3.Department of Mathematics\n4.Department of Botany " +
+                        "\n5.Department of Zoology\n6.Department of English\n7.Department of Psychology ");
+
+                faculty7.setText("03.Faculty of M.S.C:");
+                faculty7txt1.setText("1.Department of Physics \n2.Department of Chemistry\n3.Department of Mathematics\n4.Department of Botany " +
+                        "\n5.Department of Zoology\n6.Department of English\n7.Department of Psychology ");
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
+            //GHMMC
+            else if(value.equals("GHMMC")) {
+                getSupportActionBar().setTitle("GHMMC");
+                scrl.setBackgroundResource(R.drawable.national_background);
+
+                overviewTxt1.setText("National University");
+
+                varsityName.setText("Government Hazi Mohammad Mohsin College(GHMMC)");
+                year.setText("1874 (in British India)");
+                student.setText("(20,000+-)");
+                hall.setText("N/A");
+                department.setText("15");
+                nickName.setText("GHMMC");
+                location.setText("College Road, Chawkbazar,Chattrogram 4000,chittagong");
+                campus.setText("31 acres ");
+
+                email.setText(" mohsincollege_ctg@yahoo.com");
+                mobile.setText("+8801031-614690");
+                webAddress.setText("www.mohsincollege.edu.bd");
+
+                faculty1.setText("01.Faculty of  Arts & Social Science :");
+                faculty1txt1.setText("1.Department of  Bengali \n2.Department of Economics \n3.Department of  Political Science \n4.Department of Islamic History and Culture  " +
+                        "\n5.Department of Philosophy  \n6.Department of English\n7.Department of  Sociology \n8.Department of Arabic & Islamic Studies");
+
+
+                faculty2.setText("02.Faculty of Science  :");
+                faculty2txt1.setText("1.Department of Physics  \n2.Department of Chemistry \n3.Department of  Botany\n4.Department of  Zoology " +
+                        "\n5.Department of  Mathematics  ");
+
+                faculty3.setText("03.Faculty of Commerce :");
+                faculty3txt1.setText("1.Department of Accounting \n2. Department of  Management");
+
+                faculty4.setVisibility(View.GONE);
+                faculty4txt1.setVisibility(View.GONE);
+
+
+                        faculty5.setVisibility(View.GONE);
+                faculty5txt1.setVisibility(View.GONE);
+
+                faculty6.setVisibility(View.GONE);
+                faculty6txt1.setVisibility(View.GONE);
+
+                faculty7.setVisibility(View.GONE);
+                faculty7txt1.setVisibility(View.GONE);
+
+
+                faculty8.setVisibility(View.GONE);
+                faculty8txt1.setVisibility(View.GONE);
+
+
+                faculty9.setVisibility(View.GONE);
+                faculty9txt1.setVisibility(View.GONE);
+
+                faculty10.setVisibility(View.GONE);
+                faculty10txt1.setVisibility(View.GONE);
+
+                faculty11.setVisibility(View.GONE);
+                faculty11txt1.setVisibility(View.GONE);
+
+                faculty12.setVisibility(View.GONE);
+                faculty12txt1.setVisibility(View.GONE);
+
+                faculty13.setVisibility(View.GONE);
+                faculty13txt1.setVisibility(View.GONE);
+            }
+
             //...............................National University..............................
 
             //...............................Private University..............................

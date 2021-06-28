@@ -444,6 +444,20 @@ public class VarsityList extends AppCompatActivity {
                         intent.putExtra("tag", "CGC");
                         startActivity(intent);
                     }
+
+                    else if(adapter.getItem(position).equals("Government City College, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "GCC");
+                        startActivity(intent);
+                    }
+
+                    else if(adapter.getItem(position).equals("Government Hazi Mohammad Mohsin College, Chittagong"))
+                    {
+                        Intent intent = new Intent(VarsityList.this, DetailsActivity.class);
+                        intent.putExtra("tag", "GHMMC");
+                        startActivity(intent);
+                    }
                 }
 
                 //...............................National University..............................
