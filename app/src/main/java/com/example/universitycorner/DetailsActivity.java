@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.Menu;
@@ -17,9 +16,22 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-public class DetailsActivity extends AppCompatActivity {
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+public class DetailsActivity extends AppCompatActivity implements OnMapReadyCallback {
+
+    //.................variable for google map...............
+    double latitude, longitude;
+    //.................variable for google map...............
+
+    //variable for tag
+    String value;
 
     //variable for overview
     private TextView varsityName, year, student, hall, department, nickName, location, campus, faculty1, facultyDepartment, overviewTxt1;
@@ -54,6 +66,11 @@ public class DetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //Google map
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
 
         //animation variable casting
         rightSideAnim = AnimationUtils.loadAnimation(this,R.anim.right_side_animation);
@@ -138,7 +155,7 @@ public class DetailsActivity extends AppCompatActivity {
 
         if(bundle != null)
         {
-            String value = bundle.getString("tag");
+            value = bundle.getString("tag");
 
             //...............................Engineering University..............................
 
@@ -192,6 +209,9 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                latitude = 23.726565;
+                longitude = 90.392662;
 
                 img1.setBackgroundResource(R.drawable.buet1);
                 img2.setBackgroundResource(R.drawable.buet2);
@@ -297,6 +317,9 @@ public class DetailsActivity extends AppCompatActivity {
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
 
+                latitude = 24.363584;
+                longitude = 88.628400;
+
                 img1.setBackgroundResource(R.drawable.ruet1);
                 img2.setBackgroundResource(R.drawable.ruet2);
                 img3.setBackgroundResource(R.drawable.ruet3);
@@ -399,6 +422,9 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                latitude = 22.461950;
+                longitude = 91.971018;
 
                 img1.setBackgroundResource(R.drawable.cuet1);
                 img2.setBackgroundResource(R.drawable.cuet2);
@@ -511,6 +537,9 @@ public class DetailsActivity extends AppCompatActivity {
                 img3.setBackgroundResource(R.drawable.kuet3);
                 img4.setBackgroundResource(R.drawable.kuet4);
 
+                latitude = 22.900565;
+                longitude = 89.502403;
+
                 img1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -610,6 +639,9 @@ public class DetailsActivity extends AppCompatActivity {
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                latitude = 24.017793;
+                longitude = 90.418131;
 
                 img1.setBackgroundResource(R.drawable.duet1);
                 img2.setBackgroundResource(R.drawable.duet2);
@@ -3818,4 +3850,14 @@ public class DetailsActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        LatLng sydney = new LatLng(latitude, longitude);
+        googleMap.addMarker(new MarkerOptions()
+                .position(sydney)
+                .title(value));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+    }
+
 }
