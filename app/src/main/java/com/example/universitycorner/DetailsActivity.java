@@ -24,7 +24,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class DetailsActivity extends AppCompatActivity implements OnMapReadyCallback {
+public class DetailsActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleMap.OnCameraMoveStartedListener {
 
     //.................variable for google map...............
     double latitude, longitude;
@@ -3853,11 +3853,31 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        LatLng sydney = new LatLng(latitude, longitude);
+        LatLng area = new LatLng(latitude, longitude);
         googleMap.addMarker(new MarkerOptions()
-                .position(sydney)
+                .position(area)
                 .title(value));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLng(area));
+        googleMap.setOnCameraMoveStartedListener((GoogleMap.OnCameraMoveStartedListener) this);
+    }
+
+    public void onCameraMoveStarted(int reason) {
+
+        if (reason == GoogleMap.OnCameraMoveStartedListener.REASON_GESTURE) {
+            scrl.requestDisallowInterceptTouchEvent(true);
+
+        }
+
+        else if (reason == GoogleMap.OnCameraMoveStartedListener
+                .REASON_API_ANIMATION) {
+            scrl.requestDisallowInterceptTouchEvent(true);
+
+        }
+
+        else if (reason == GoogleMap.OnCameraMoveStartedListener
+                .REASON_DEVELOPER_ANIMATION) {
+            scrl.requestDisallowInterceptTouchEvent(true);
+        }
     }
 
 }
