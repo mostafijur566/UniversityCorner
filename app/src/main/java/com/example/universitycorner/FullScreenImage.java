@@ -112,5 +112,101 @@ public class FullScreenImage extends AppCompatActivity {
                 img.setBackgroundResource(R.drawable.duet4);
         }
         //.............................DUET.............................
+
+        //.............................CMC.............................
+        else if(name.equals("cmc"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.cmc1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.cmc2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.cmc3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.cmc4);
+        }
+        //.............................CMC.............................
+
+        //.............................CMU.............................
+        else if(name.equals("cmu"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.cmu1);
+        }
+        //.............................CMU.............................
+
+        //.............................CIMCH.............................
+        else if(name.equals("cimch"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.cimch1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.cimch2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.cimch3);
+
+        }
+        //.............................CIMCH.............................
+
+        //.............................AMC.............................
+        else if(name.equals("amc"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.amc1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.amc2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.amc3);
+
+        }
+        //.............................AMC.............................
+
+        //.............................SMC.............................
+        else if(name.equals("smc"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.smc1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.smc2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.smc3);
+
+        }
+        //.............................SMC.............................
+
+        //.............................SMC.............................
+        else if(name.equals("mcmc"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.mcmc1);
+
+        }
+        //.............................SMC.............................
+
+        //.............................CMC.............................
+        else if(name.equals("ustc"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.ustc1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.ustc2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.ustc3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.ustc4);
+        }
+        //.............................CMC.............................
     }
 }
