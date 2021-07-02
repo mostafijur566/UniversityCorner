@@ -293,5 +293,39 @@ public class FullScreenImage extends AppCompatActivity {
                 img.setBackgroundResource(R.drawable.cvasu4);
         }
         //.............................cvasu.............................
+
+        //.............................BUTEX.............................
+        else if(name.equals("butex"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.butex1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.butex2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.butex3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.butex4);
+        }
+        //.............................BUTEX.............................
+
+        //.............................DU.............................
+        else if(name.equals("du"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.du1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.du2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.du3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.du4);
+        }
+        //.............................DU.............................
     }
 }

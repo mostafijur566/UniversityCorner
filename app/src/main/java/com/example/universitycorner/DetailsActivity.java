@@ -2006,252 +2006,55 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                img1.setBackgroundResource(R.drawable.butex1);
+                img2.setBackgroundResource(R.drawable.butex2);
+                img3.setBackgroundResource(R.drawable.butex3);
+                img4.setBackgroundResource(R.drawable.butex4);
+
+                img1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img1");
+                        intent.putExtra("name", "butex");
+                        startActivity(intent);
+                    }
+                });
+
+                img2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img2");
+                        intent.putExtra("name", "butex");
+                        startActivity(intent);
+                    }
+                });
+
+                img3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img3");
+                        intent.putExtra("name", "butex");
+                        startActivity(intent);
+                    }
+                });
+
+                img4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img4");
+                        intent.putExtra("name", "butex");
+                        startActivity(intent);
+                    }
+                });
+
+                latitude = 23.760258;
+                longitude = 90.400592;
             }
-
-            //Textile Engineering College, Chittagong
-            else if(value.equals("CTEC")) {
-                getSupportActionBar().setTitle("CTEC");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
-
-                overviewTxt1.setText("Public, Textile");
-
-                varsityName.setText("Textile Engineering College, Chittagong");
-                year.setText("1980");
-                student.setText("420");
-                hall.setText("N/A");
-                department.setText("N/A");
-                nickName.setText("CTEC");
-                location.setText("Zorargonj, Mirsharai, Chittagong, Bangladesh");
-                campus.setText("Suburb");
-
-                email.setText("N/A");
-                mobile.setText("N/A");
-                webAddress.setText("N/A");
-
-                faculty1.setVisibility(View.GONE);
-                faculty1txt1.setText("1. BSc in Textile Engineering (major in Apparel Merchandising)\n2. BSc in Textile Engineering (major in Fabric Technology)" +
-                        "\n3. BSc in Textile Engineering (major in Wet Processing)\n4. BSc in Textile Engineering (major in Yarn Technology)");
-
-                faculty2.setVisibility(View.GONE);
-                faculty2txt1.setVisibility(View.GONE);
-
-                faculty3.setVisibility(View.GONE);
-                faculty3txt1.setVisibility(View.GONE);
-
-                faculty4.setVisibility(View.GONE);
-                faculty4txt1.setVisibility(View.GONE);
-
-                faculty5.setVisibility(View.GONE);
-                faculty5txt1.setVisibility(View.GONE);
-
-                faculty6.setVisibility(View.GONE);
-                faculty6txt1.setVisibility(View.GONE);
-
-                faculty7.setVisibility(View.GONE);
-                faculty7txt1.setVisibility(View.GONE);
-
-                faculty8.setVisibility(View.GONE);
-                faculty8txt1.setVisibility(View.GONE);
-
-                faculty9.setVisibility(View.GONE);
-                faculty9txt1.setVisibility(View.GONE);
-
-                faculty10.setVisibility(View.GONE);
-                faculty10txt1.setVisibility(View.GONE);
-
-                faculty11.setVisibility(View.GONE);
-                faculty11txt1.setVisibility(View.GONE);
-
-                faculty12.setVisibility(View.GONE);
-                faculty12txt1.setVisibility(View.GONE);
-
-                faculty13.setVisibility(View.GONE);
-                faculty13txt1.setVisibility(View.GONE);
-            }
-
-            //Textile Engineering College, Noakhali
-            else if(value.equals("TECN")) {
-                getSupportActionBar().setTitle("TECN");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
-
-                overviewTxt1.setText("Public, Textile");
-
-                varsityName.setText("Textile Engineering College, Noakhali");
-                year.setText("2006");
-                student.setText("480");
-                hall.setText("N/A");
-                department.setText("N/A");
-                nickName.setText("TECN");
-                location.setText("Begumganj Upazila, Noakhali, Bangladesh");
-                campus.setText("Suburb");
-
-                email.setText("N/A");
-                mobile.setText("+8801400-959640");
-                webAddress.setText("www.tecn.gov.bd");
-
-                faculty1.setVisibility(View.GONE);
-                faculty1txt1.setText("1. BSc in Textile Engineering (major in Apparel Engineering)\n2. BSc in Textile Engineering (major in Fabric Engineering)" +
-                        "\n3. BSc in Textile Engineering (major in Wet Processing Engineering)\n4. BSc in Textile Engineering (major in Yarn Engineering)");
-
-                faculty2.setVisibility(View.GONE);
-                faculty2txt1.setVisibility(View.GONE);
-
-                faculty3.setVisibility(View.GONE);
-                faculty3txt1.setVisibility(View.GONE);
-
-                faculty4.setVisibility(View.GONE);
-                faculty4txt1.setVisibility(View.GONE);
-
-                faculty5.setVisibility(View.GONE);
-                faculty5txt1.setVisibility(View.GONE);
-
-                faculty6.setVisibility(View.GONE);
-                faculty6txt1.setVisibility(View.GONE);
-
-                faculty7.setVisibility(View.GONE);
-                faculty7txt1.setVisibility(View.GONE);
-
-                faculty8.setVisibility(View.GONE);
-                faculty8txt1.setVisibility(View.GONE);
-
-                faculty9.setVisibility(View.GONE);
-                faculty9txt1.setVisibility(View.GONE);
-
-                faculty10.setVisibility(View.GONE);
-                faculty10txt1.setVisibility(View.GONE);
-
-                faculty11.setVisibility(View.GONE);
-                faculty11txt1.setVisibility(View.GONE);
-
-                faculty12.setVisibility(View.GONE);
-                faculty12txt1.setVisibility(View.GONE);
-
-                faculty13.setVisibility(View.GONE);
-                faculty13txt1.setVisibility(View.GONE);
-            }
-
-            //Pabna Textile Engineering College
-            else if(value.equals("PTEC")) {
-                getSupportActionBar().setTitle("PTEC");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
-
-                overviewTxt1.setText("Public, Textile");
-
-                varsityName.setText("Pabna Textile Engineering College");
-                year.setText("2006");
-                student.setText("480");
-                hall.setText("N/A");
-                department.setText("N/A");
-                nickName.setText("PTEC");
-                location.setText("Pabna, Bangladesh");
-                campus.setText("Urban");
-
-                email.setText("info@pabtec.gov.bd");
-                mobile.setText("+880-0731-66103");
-                webAddress.setText("www.pabtec.gov.bd");
-
-                faculty1.setVisibility(View.GONE);
-                faculty1txt1.setText("1. Department of Wet Process Engineering\n2. Department of Fabric Engineering" +
-                        "\n3. Department of Yarn Engineering\n4. Department of Apparel Engineering");
-
-                faculty2.setVisibility(View.GONE);
-                faculty2txt1.setVisibility(View.GONE);
-
-                faculty3.setVisibility(View.GONE);
-                faculty3txt1.setVisibility(View.GONE);
-
-                faculty4.setVisibility(View.GONE);
-                faculty4txt1.setVisibility(View.GONE);
-
-                faculty5.setVisibility(View.GONE);
-                faculty5txt1.setVisibility(View.GONE);
-
-                faculty6.setVisibility(View.GONE);
-                faculty6txt1.setVisibility(View.GONE);
-
-                faculty7.setVisibility(View.GONE);
-                faculty7txt1.setVisibility(View.GONE);
-
-                faculty8.setVisibility(View.GONE);
-                faculty8txt1.setVisibility(View.GONE);
-
-                faculty9.setVisibility(View.GONE);
-                faculty9txt1.setVisibility(View.GONE);
-
-                faculty10.setVisibility(View.GONE);
-                faculty10txt1.setVisibility(View.GONE);
-
-                faculty11.setVisibility(View.GONE);
-                faculty11txt1.setVisibility(View.GONE);
-
-                faculty12.setVisibility(View.GONE);
-                faculty12txt1.setVisibility(View.GONE);
-
-                faculty13.setVisibility(View.GONE);
-                faculty13txt1.setVisibility(View.GONE);
-            }
-
-            //Bangobondhu Textile Engineering College
-            else if(value.equals("BTEC")) {
-                getSupportActionBar().setTitle("BTEC");
-                scrl.setBackgroundResource(R.drawable.agriculature_background);
-
-                overviewTxt1.setText("Public, Textile");
-
-                varsityName.setText("Bangobondhu Textile Engineering College");
-                year.setText("2007");
-                student.setText("420");
-                hall.setText("N/A");
-                department.setText("N/A");
-                nickName.setText("BTEC");
-                location.setText("Kalihati, Bangladesh");
-                campus.setText("Suburban 11.5 acres (4.7 ha)");
-
-                email.setText("info@btec.gov.bd");
-                mobile.setText("+8801733-192418");
-                webAddress.setText("www.btec.gov.bd");
-
-                faculty1.setVisibility(View.GONE);
-                faculty1txt1.setText("1. Department of Wet Process Engineering\n2. Department of Fabric Manufacturing and Weaving and Knitting" +
-                        "\n3. Department of Yarn Engineering\n4. Department of Garments Manufacturing");
-
-                faculty2.setVisibility(View.GONE);
-                faculty2txt1.setVisibility(View.GONE);
-
-                faculty3.setVisibility(View.GONE);
-                faculty3txt1.setVisibility(View.GONE);
-
-                faculty4.setVisibility(View.GONE);
-                faculty4txt1.setVisibility(View.GONE);
-
-                faculty5.setVisibility(View.GONE);
-                faculty5txt1.setVisibility(View.GONE);
-
-                faculty6.setVisibility(View.GONE);
-                faculty6txt1.setVisibility(View.GONE);
-
-                faculty7.setVisibility(View.GONE);
-                faculty7txt1.setVisibility(View.GONE);
-
-                faculty8.setVisibility(View.GONE);
-                faculty8txt1.setVisibility(View.GONE);
-
-                faculty9.setVisibility(View.GONE);
-                faculty9txt1.setVisibility(View.GONE);
-
-                faculty10.setVisibility(View.GONE);
-                faculty10txt1.setVisibility(View.GONE);
-
-                faculty11.setVisibility(View.GONE);
-                faculty11txt1.setVisibility(View.GONE);
-
-                faculty12.setVisibility(View.GONE);
-                faculty12txt1.setVisibility(View.GONE);
-
-                faculty13.setVisibility(View.GONE);
-                faculty13txt1.setVisibility(View.GONE);
-            }
-
             //...............................Agricultural and Others..............................
 
             //...............................General University..............................
@@ -2332,6 +2135,54 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
                 faculty13.setText("13. Faculty of Postgraduate Medical Sciences and Research");
                 faculty13txt1.setVisibility(View.GONE);
+
+                img1.setBackgroundResource(R.drawable.du1);
+                img2.setBackgroundResource(R.drawable.du2);
+                img3.setBackgroundResource(R.drawable.du3);
+                img4.setBackgroundResource(R.drawable.du4);
+
+                img1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img1");
+                        intent.putExtra("name", "du");
+                        startActivity(intent);
+                    }
+                });
+
+                img2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img2");
+                        intent.putExtra("name", "du");
+                        startActivity(intent);
+                    }
+                });
+
+                img3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img3");
+                        intent.putExtra("name", "du");
+                        startActivity(intent);
+                    }
+                });
+
+                img4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img4");
+                        intent.putExtra("name", "du");
+                        startActivity(intent);
+                    }
+                });
+
+                latitude = 23.733866;
+                longitude = 90.392875;
             }
 
             //RU
