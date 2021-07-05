@@ -327,5 +327,70 @@ public class FullScreenImage extends AppCompatActivity {
                 img.setBackgroundResource(R.drawable.du4);
         }
         //.............................DU.............................
+
+        //.............................RU.............................
+        else if(name.equals("ru"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.ru1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.ru2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.ru3);
+        }
+        //.............................RU.............................
+
+        //.............................CU.............................
+        else if(name.equals("cu"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.cu1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.cu2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.cu3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.cu4);
+        }
+        //.............................CU.............................
+
+        //.............................JU.............................
+        else if(name.equals("ju"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.ju1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.ju2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.ju3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.ju4);
+        }
+        //.............................JU.............................
+
+        //.............................EDU.............................
+        else if(name.equals("edu"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.edu1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.edu2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.edu3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.edu4);
+        }
+        //.............................EDU.............................
     }
 }
