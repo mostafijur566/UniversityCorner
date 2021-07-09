@@ -376,6 +376,57 @@ public class FullScreenImage extends AppCompatActivity {
         }
         //.............................JU.............................
 
+        //.............................IU.............................
+        else if(name.equals("iu"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.iu1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.iu2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.iu3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.iu4);
+        }
+        //.............................IU.............................
+
+        //.............................KU.............................
+        else if(name.equals("ku"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.ku1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.ku2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.ku3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.ku4);
+        }
+        //.............................KU.............................
+
+        //.............................JNU.............................
+        else if(name.equals("jnu"))
+        {
+            if(value.equals("img1"))
+                img.setBackgroundResource(R.drawable.jnu1);
+
+            else if(value.equals("img2"))
+                img.setBackgroundResource(R.drawable.jnu2);
+
+            else if(value.equals("img3"))
+                img.setBackgroundResource(R.drawable.jnu3);
+
+            else if(value.equals("img4"))
+                img.setBackgroundResource(R.drawable.jnu4);
+        }
+        //.............................JNU.............................
+
         //.............................EDU.............................
         else if(name.equals("edu"))
         {

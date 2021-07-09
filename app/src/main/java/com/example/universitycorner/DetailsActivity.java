@@ -2589,6 +2589,54 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                img1.setBackgroundResource(R.drawable.iu1);
+                img2.setBackgroundResource(R.drawable.iu2);
+                img3.setBackgroundResource(R.drawable.iu3);
+                img4.setBackgroundResource(R.drawable.iu4);
+
+                img1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img1");
+                        intent.putExtra("name", "iu");
+                        startActivity(intent);
+                    }
+                });
+
+                img2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img2");
+                        intent.putExtra("name", "iu");
+                        startActivity(intent);
+                    }
+                });
+
+                img3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img3");
+                        intent.putExtra("name", "iu");
+                        startActivity(intent);
+                    }
+                });
+
+                img4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img4");
+                        intent.putExtra("name", "iu");
+                        startActivity(intent);
+                    }
+                });
+
+                latitude =  23.723681;
+                longitude = 89.151138;
             }
 
             //KU
@@ -2655,6 +2703,54 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                img1.setBackgroundResource(R.drawable.ku1);
+                img2.setBackgroundResource(R.drawable.ku2);
+                img3.setBackgroundResource(R.drawable.ku3);
+                img4.setBackgroundResource(R.drawable.ku4);
+
+                img1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img1");
+                        intent.putExtra("name", "ku");
+                        startActivity(intent);
+                    }
+                });
+
+                img2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img2");
+                        intent.putExtra("name", "ku");
+                        startActivity(intent);
+                    }
+                });
+
+                img3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img3");
+                        intent.putExtra("name", "ku");
+                        startActivity(intent);
+                    }
+                });
+
+                img4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img4");
+                        intent.putExtra("name", "ku");
+                        startActivity(intent);
+                    }
+                });
+
+                latitude =  22.802175;
+                longitude = 89.533933;
             }
 
             //JNU
@@ -2720,6 +2816,54 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
 
                 faculty13.setVisibility(View.GONE);
                 faculty13txt1.setVisibility(View.GONE);
+
+                img1.setBackgroundResource(R.drawable.jnu1);
+                img2.setBackgroundResource(R.drawable.jnu2);
+                img3.setBackgroundResource(R.drawable.jnu3);
+                img4.setBackgroundResource(R.drawable.jnu4);
+
+                img1.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img1");
+                        intent.putExtra("name", "jnu");
+                        startActivity(intent);
+                    }
+                });
+
+                img2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img2");
+                        intent.putExtra("name", "jnu");
+                        startActivity(intent);
+                    }
+                });
+
+                img3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img3");
+                        intent.putExtra("name", "jnu");
+                        startActivity(intent);
+                    }
+                });
+
+                img4.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(DetailsActivity.this, FullScreenImage.class);
+                        intent.putExtra("tag", "img4");
+                        intent.putExtra("name", "jnu");
+                        startActivity(intent);
+                    }
+                });
+
+                latitude =  23.708476;
+                longitude = 90.411403;
             }
 
             //JKKNIU
